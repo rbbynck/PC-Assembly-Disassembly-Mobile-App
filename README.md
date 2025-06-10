@@ -12,7 +12,6 @@ The app gives a glimpse of what a PC Assembly and Disassembly should look like.
 
 
 ### About the App
-
-Finished around March 2021
-Served as a Thesis 
-This is the Version 2 and final version
+* Finished around March 2021
+* Served as a Thesis 
+* This is the Version 2 and final version
