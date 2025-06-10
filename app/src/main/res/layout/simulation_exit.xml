@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutError"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95000000"
+    android:forceDarkAllowed="false"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Are you sure you want to quit?"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:foreground="?android:attr/actionBarItemBackground"
+            android:id="@+id/simulation_exit_check"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/simulation_check"/>
+
+        <ImageView
+            android:foreground="?android:attr/actionBarItemBackground"
+            android:id="@+id/simulation_exit_close"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/simulation_remove"/>
+
+        <ImageView
+            android:foreground="?android:attr/actionBarItemBackground"
+            android:id="@+id/simulation_exit_restart"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/simulation_restart"/>
+    </LinearLayout>
+
+</LinearLayout>

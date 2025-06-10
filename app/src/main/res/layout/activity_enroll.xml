@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutError"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95000000"
+    android:forceDarkAllowed="false"
+    android:padding="20dp"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Enroll"
+                        android:textColor="@color/black_primary"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="right">
+
+                    <ImageView
+                        android:id="@+id/enroll_close"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/feedback_close"
+                        android:foreground="@drawable/ripple_2" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+            <!-- Edit Profile!-->
+            <LinearLayout
+                android:id="@+id/profile_edit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <EditText
+                        android:hint="Code"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:id="@+id/enroll_edittext"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/holo_green_dark"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:maxLength="8"
+                        android:textColor="@color/black_primary"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/enroll_enroll"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:foreground="@drawable/ripple_1"
+                        android:text="Enroll Now"
+                        android:textColor="@color/main_red"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+        </LinearLayout>
+        <!--Loading Bar-->
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/enroll_loading"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:background="@drawable/loading_background">
+
+                <ProgressBar
+                    android:indeterminateTint="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:minWidth="60dp"
+                    android:minHeight="60dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

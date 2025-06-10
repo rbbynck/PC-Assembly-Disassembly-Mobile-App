@@ -1,0 +1,128 @@
+<resources>
+    <!--TODO: MODULE CONTENT TITLES-->
+    <!--TODO: LESSON 1-->
+    <!--TODO: MODULE 1-->
+    <string name="module_1_1_1_title">Welcome to PC Assembly and Disassembly Mobile App</string>
+    <string name="module_1_1_2_title">What is a System Unit?</string>
+    <string name="module_1_1_3_title">Basic Components of a System Unit</string>
+    <!-- TODO: MODULE 2-->
+    <string name="module_1_2_1_title">What is a Motherboard?</string>
+    <string name="module_1_2_2_title">Motherboard Diagram</string>
+    <string name="module_1_2_3_title">Expansion Slots</string>
+    <string name="module_1_2_4_title">Rear Ports</string>
+    <string name="module_1_2_5_title">Memory Slot</string>
+    <!--TODO: MODULE 3-->
+    <string name="module_1_3_1_title">Motherboard Form Factor</string>
+    <string name="module_1_3_2_title">ATX Motherboard</string>
+    <string name="module_1_3_3_title">Micro-ATX Motherboard</string>
+    <string name="module_1_3_4_title">Mini-ITX Motherboard</string>
+    <string name="module_1_3_5_title">ATX vs Micro ATX vs MINI ATX</string>
+    <string name="module_1_3_6_title">EATX</string>
+    <string name="module_1_3_7_title">What is the best motherboard form factor to buy?</string>
+    <!--TODO: MODULE 4-->
+    <string name="module_1_4_1_title">Chipset/Socket</string>
+    <string name="module_1_4_2_title">What is a Chipset?</string>
+    <string name="module_1_4_3_title">A Brief History of Chipsets</string>
+    <string name="module_1_4_4_title">Northbridge Chipset</string>
+    <string name="module_1_4_5_title">Southbridge Chipset</string>
+    <string name="module_1_4_6_title">Differences Between Northbridge and Southbridge Chipset</string>
+    <string name="module_1_4_7_title">Your Chipset Determines.....</string>
+    <string name="module_1_4_8_title">Your Chipset Determines.....</string>
+    <string name="module_1_4_9_title">Your Chipset Determines.....</string>
+
+
+    <!--TODO: LESSON 2-->
+    <!--TODO: MODULE 1-->
+    <string name="module_2_1_1_title">What is a System Unit?</string>
+    <string name="module_2_1_2_title">Front of the System Unit</string>
+    <string name="module_2_1_3_title">Back of the System Unit</string>
+    <string name="module_2_1_4_title">Back of the System Unit</string>
+    <!--TODO: MODULE 2-->
+    <string name="module_2_2_1_title">Computer Case Sizes</string>
+    <string name="module_2_2_2_title">Pico-ITX</string>
+    <string name="module_2_2_3_title">Small Form Factor (Mini-ITX Case)</string>
+    <string name="module_2_2_4_title">Mini Tower (MicroATX Case)</string>
+    <string name="module_2_2_5_title">Mid Tower (ATX Case)</string>
+    <string name="module_2_2_6_title">Full Tower (EATX Case)</string>
+
+
+    <!--TODO: LESSON 3-->
+    <!--TODO: MODULE 1-->
+    <string name="module_3_1_1_title">Reminder and Precautions Before Disassembling and Assembling a Computer</string>
+    <!--TODO: MODULE 2-->
+    <string name="module_3_2_1_title">Reminder and Precautions During Disassembling and Assembling a Computer</string>
+    <!--TODO: MODULE 3-->
+    <string name="module_3_3_1_title">Reminder and Precautions After Disassembling and Assembling a Computer</string>
+
+
+    <!--TODO: LESSON 4-->
+    <!--TODO: MODULE 1-->
+    <string name="module_4_1_1_title">Cleaning a Computer</string>
+    <string name="module_4_1_2_title">Cleaning Tools</string>
+    <string name="module_4_1_3_title">Cleaning the inside of a Computer</string>
+
+    <!--TODO: MODULE 2-->
+    <string name="module_4_2_1_title">RAM Problems</string>
+    <string name="module_4_2_2_title">Symptoms of a RAM Problem</string>
+    <string name="module_4_2_3_title">What Causes Memory Damage?</string>
+    <string name="module_4_2_4_title">Fixing the Problem</string>
+    <string name="module_4_2_5_title">Cleaning a RAM</string>
+    <!--TODO: MODULE 3-->
+    <string name="module_4_3_1_title">PSU Problems</string>
+    <string name="module_4_3_2_title">Symptoms of a failing PSU</string>
+    <string name="module_4_3_3_title">Diagnosing PSU</string>
+    <string name="module_4_3_4_title">Swap Testing</string>
+    <!--TODO: MODULE 4-->
+    <string name="module_4_4_1_title">Video Card Problems</string>
+    <string name="module_4_4_2_title">Video Card Symptoms</string>
+    <string name="module_4_4_3_title">Diagnosing Video Card Problems</string>
+    <!--TODO: MODULE 5-->
+    <string name="module_4_5_1_title">Motherboard Problems</string>
+    <string name="module_4_5_2_title">Symptoms of a failing Motherboard</string>
+    <string name="module_4_5_3_title">How to troubleshoot a Motherboard Failure Issue</string>
+    <string name="module_4_5_4_title">How to troubleshoot a Motherboard Failure Issue</string>
+
+
+    <!--TODO: LESSON 5-->
+    <!--TODO: MODULE 1-->
+    <string name="module_5_1_1_title">Basic PC Set-Up</string>
+    <!--TODO: MODULE 2-->
+    <string name="module_5_2_1_title">Gaming PC</string>
+    <string name="module_5_2_2_title">Video Editing/Production PC</string>
+    <string name="module_5_2_3_title">Music Production PC</string>
+    <string name="module_5_2_4_title">3D Modeling PC</string>
+
+
+    <!--TODO: LESSON 6-->
+    <!--TODO: MODULE 1-->
+    <string name="module_6_1_1_title">Hardware Tools</string>
+    <string name="module_6_1_2_title">ESD Tools</string>
+    <string name="module_6_1_3_title">Hand Tools</string>
+    <string name="module_6_1_4_title">Cleaning Tools</string>
+    <!--TODO: MODULE 2-->
+    <string name="module_6_2_1_title">Demonstrate Proper Tool Use</string>
+    <string name="module_6_2_2_title">Antistatic Wrist Strap</string>
+    <string name="module_6_2_3_title">Antistatic Wrist Strap</string>
+    <string name="module_6_2_4_title">Hand Tools</string>
+    <string name="module_6_2_5_title">Cleaning Materials</string>
+
+
+    <!--TODO: LESSON 7-->
+    <!--TODO: MODULE 1-->
+    <string name="module_7_1_1_title">Disassembling PC</string>
+    <string name="module_7_1_2_title">Disassembling PC</string>
+    <string name="module_7_1_3_title">Disassembling PC</string>
+    <string name="module_7_1_4_title">Disassembling PC</string>
+    <string name="module_7_1_5_title">Disassembling PC</string>
+    <string name="module_7_1_6_title">Disassembling PC</string>
+    <string name="module_7_1_7_title">Disassembling PC</string>
+
+    <!--TODO: LESSON 8-->
+    <!--TODO: MODULE 1-->
+    <string name="module_8_1_1_title">Assembling PC</string>
+    <string name="module_8_1_2_title">Assembling PC</string>
+    <string name="module_8_1_3_title">Assembling PC</string>
+    <string name="module_8_1_4_title">Assembling PC</string>
+    <string name="module_8_1_5_title">Assembling PC</string>
+    <string name="module_8_1_6_title">Assembling PC</string>
+</resources>

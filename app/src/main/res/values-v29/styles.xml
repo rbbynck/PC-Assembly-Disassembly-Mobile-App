@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FD5D70</item>
+        <item name="android:forceDarkAllowed" xmlns:tools="http://schemas.android.com/tools">false</item>
+    </style>
+</resources>

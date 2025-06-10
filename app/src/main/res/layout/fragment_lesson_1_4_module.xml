@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/module_background"
+    android:orientation="vertical"
+    android:forceDarkAllowed="false"
+    tools:context=".Fragment_Lesson_1_4_Module">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:background="?android:attr/actionBarItemBackground"
+                android:id="@+id/module_1_4_back"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:src="@drawable/module_back" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:paddingLeft="10dp"
+                android:text="Motherboard Chipset/Socket"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:background="?android:attr/actionBarItemBackground"
+                android:id="@+id/module_1_4_logo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.2"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:paddingRight="50dp"
+                android:src="@drawable/module_play_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingRight="0dp">
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_1"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_selected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_2"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_unselected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_3"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_unselected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView2"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_4"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_unselected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_5"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_unselected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_6"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_unselected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_7"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_unselected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_8"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_unselected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_9"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_unselected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:id="@+id/module_1_4_button_10"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/module_unselected"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="20dp">
+
+        <ScrollView
+            android:id="@+id/module_1_4_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/module_lesson_background"
+            android:fillViewport="true"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--TITLE-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_title_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/module_book" />
+
+                    <TextView
+                        android:id="@+id/module_1_4_title_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/module_1_4_1_title"
+                        android:textColor="@color/black_primary"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <!--CONTENT 1-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_1_0_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:padding="0dp"
+                        android:src="@drawable/module_1_4_1_0" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/module_1_4_1_0_link"
+                        android:textColor="@color/com_facebook_blue"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <!--CONTENT 2-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_2_0_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:padding="0dp"
+                        android:src="@drawable/module_1_4_2_0" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/module_1_4_2_0_link"
+                        android:textColor="@color/com_facebook_blue"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <!--CONTENT 3-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_3_0_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/module_1_4_3_0" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:text="@string/module_1_4_3_0_link"
+                        android:textColor="@color/com_facebook_blue"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+                <!--CONTENT 4-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_4_0_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/module_1_4_4_0" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/module_1_4_4_0_link"
+                        android:textColor="@color/com_facebook_blue"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_4_1_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--CONTENT 5-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/module_1_4_4_0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/module_1_4_5_0_link"
+                        android:textColor="@color/com_facebook_blue"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_5_0_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_5_1_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--CONTENT 6-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_6_0_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/module_1_4_4_0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/module_1_4_6_0_link"
+                        android:textColor="@color/com_facebook_blue"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+                <!--CONTENT 7-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/module_1_4_7_0" />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_7_0_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--CONTENT 8-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/module_1_4_8_0" />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_8_0_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--CONTENT 9-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/module_1_4_9_0" />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="@string/module_1_4_9_0_content"
+                        android:textColor="@color/black_primary"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--CONTENT 10-->
+                <LinearLayout
+                    android:id="@+id/module_1_4_content_10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:gravity="center"
+                        android:text="Are you ready to take the quiz?"
+                        android:textColor="@color/black_primary"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:padding="0dp"
+                        android:src="@drawable/test" />
+
+                </LinearLayout>
+
+                <!--Buttons-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/module_1_4_previous_layout"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/module_previous"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:background="?android:attr/actionBarItemBackground"
+                            android:id="@+id/module_1_4_previous_text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center"
+                            android:padding="7dp"
+                            android:text="Previous"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:id="@+id/module_1_4_next_layout"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/module_next"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:background="?android:attr/actionBarItemBackground"
+                            android:id="@+id/module_1_4_next_text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center"
+                            android:padding="7dp"
+                            android:text="Next"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,3 @@
+include ':javaprograms'
+include ':app'
+rootProject.name='Thesis'

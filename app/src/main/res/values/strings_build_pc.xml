@@ -1,0 +1,200 @@
+<resources>
+    <!--TODO: CASE-->
+    <!--NAME-->
+    <string name="name_case_1">Corsair 110R Tempered Glass Mid-Tower ATX Case</string>
+    <string name="name_case_2">darkFlash DLM21 MESH Black Mico ATX</string>
+    <string name="name_case_3">Corsaird iCUE 465X RGB Mid ATX</string>
+    <!--SPECS-->
+    <string name="spec_case_1">Specifications:
+        \n\u2022 Case Type: ATX Motherboard
+        \n\u2022 Number of Fans Installed: 1
+        \n\u2022 Number of Total Expansion Slots: 7
+        \n\u2022 Number of External 5.25" Bays: 1\n\u2022 Number of Internal 2.5" Bays: 2
+        \n\u2022 Number of Internal 2.5"/3.5" Bays: 2
+        \n\u2022 Number of Total Expansion Bays: 5</string>
+    <string name="spec_case_2">Specifications:
+        \n\u2022 Case Type: Mini-ATX/Micro-ATX
+        \n\u2022 Number of Fans Installed: 0
+        \n\u2022 Number of Total Expansion Slots: 4
+        \n\u2022 Number of External 5.25" Bays: 0\n\u2022 Number of Internal 2.5" Bays: 2
+        \n\u2022 Number of Internal 2.5"/3.5" Bays: 2</string>
+    <string name="spec_case_3">Specifications:
+        \n\u2022 Case Type: ATX Motherboard
+        \n\u2022 Number of Fans Installed: 4
+        \n\u2022 Number of Total Expansion Slots: 7
+        \n\u2022 Number of External 5.25" Bays: 1\n\u2022 Number of Internal 2.5" Bays: 2
+        \n\u2022 Number of Internal 2.5"/3.5" Bays: 2
+        \n\u2022 Number of Total Expansion Bays: 5</string>
+
+    <!--TODO: MOTHERBOARD-->
+    <!--NAME-->
+    <string name="name_motherboard_1">MSI MPG B550I</string>
+    <string name="name_motherboard_2">ASUS Prime A320M-K AM4</string>
+    <string name="name_motherboard_3">MSI Z490-A PRO LGA 1200</string>
+    <!--SPECS-->
+    <string name="spec_motherboard_1">Specifications:
+        \n\u2022 CPU (Max Support): Ryzen 9 (AMD Only)
+        \n\u2022 Chipset: AMD B550 Chipset
+        \n\u2022Overclockable: Yes
+        \n\u2022 Form Factor: Mini-ITX Motherboard
+        \n\u2022 Socket: AM4
+        \n\u2022 Memory: DDR4, Dual Channel, 2 DIMM Slots
+        \n\u2022 Max Memory: 64GB
+        \n\u2022 PCI-E X16: 1 Slot
+        \n\u2022 OS: Support Windows 10</string>
+    <string name="spec_motherboard_2">Specifications:
+        \n\u2022 CPU (Max Support): Ryzen 9 but not recommended (AMD Only)
+        \n\u2022 Chipset: AMD A320 Chipset
+        \n\u2022 Overclockable: No
+        \n\u2022 Form Factor: Micro-ATX Motherboard
+        \n\u2022 Socket: AM4
+        \n\u2022 Memory: DDR4, Dual Channel, 2 DIMM Slots
+        \n\u2022 Max Memory: 32GB
+        \n\u2022 PCI-E X16: 1 Slot
+        \n\u2022 OS: Support Windows 10</string>
+    <string name="spec_motherboard_3">Specifications:
+        \n\u2022 CPU (Max Support): i9 (intel only)
+        \n\u2022 Chipset: Intel Z490 Chipset
+        \n\u2022 Overclockable: Yes
+        \n\u2022 Form Factor: ATX Motherboard
+        \n\u2022 Socket: LGA 1200
+        \n\u2022 Memory: DDR4, Dual Channel, 4 DIMM Slots
+        \n\u2022 Max Memory: 128GB
+        \n\u2022 PCI-E X16: 2 Slots
+        \n\u2022 OS: Support Windows 10</string>
+
+
+    <!--TODO: PROCESSOR-->
+    <!--NAME-->
+    <string name="name_processor_1">AMD RYZEN 9 3900X</string>
+    <string name="name_processor_2">Intel Core i9-9900k</string>
+    <string name="name_processor_3">AMD RYZEN 7 3700X</string>
+    <!--SPECS-->
+    <string name="spec_processor_1">Specifications:
+        \n\u2022 Cores/Threads: 12/24
+        \n\u2022 Turbo Clock: 4.6GHz
+        \n\u2022 Base Clock: 3.8GHz
+        \n\u2022 Total Cache: 70MB
+        \n\u2022 Generation: 3rd Gen Ryzen
+        \n\u2022 Overclockable: Yes
+        \n\u2022 Socket: AM4
+        \n\u2022 Memory: Supports DDR4</string>
+    <string name="spec_processor_2">Specifications:
+        \n\u2022 Cores/Threads: 8/16
+        \n\u2022 Turbo Clock: 5.00GHz
+        \n\u2022 Base Clock: 3.10GHz
+        \n\u2022 Total Cache: 16MB
+        \n\u2022 Generation: 9th Gen Intel Core
+        \n\u2022 Overclockable: Yes
+        \n\u2022 Socket: FCLGA1151
+        \n\u2022 Memory: Supports DDR4</string>
+    <string name="spec_processor_3">Specifications:
+        \n\u2022 Cores/Threads: 8/16
+        \n\u2022 Turbo Clock: 4.4GHz
+        \n\u2022 Base Clock: 3.6GHz
+        \n\u2022 Total Cache: 32MB
+        \n\u2022 Generation: 3rd Gen Ryzen
+        \n\u2022 Overclockable: Yes
+        \n\u2022 Socket: AM4
+        \n\u2022 Memory: Supports DDR4</string>
+
+    <!--TODO: GPU-->
+    <!--NAME-->
+    <string name="name_gpu_1">Not Needed</string>
+    <string name="name_gpu_2">AMD Radeon RX580</string>
+    <string name="name_gpu_3">GEFORCE RTX 2080 Ti</string>
+    <!--SPECS-->
+    <string name="spec_gpu_1">NOT NEEDED</string>
+    <string name="spec_gpu_2">Specifications:
+        \n\u2022 Base Frequency: 1257 MHz
+        \n\u2022 Boost Frequency: 1340 MHz
+        \n\u2022 Peak Pixel Fill-Rate: 42.88 GP/s
+        \n\u2022 Peak Texture Fill-Rate: 192.96 GT/s
+        \n\u2022 Max Performance: 6.2 TFLOPs
+        \n\u2022 Max Memory Size: 8 GB
+        \n\u2022 Memory Type: GDDR5
+        \n\u2022 Memory Interface: 256-bit
+        \n\u2022 HDMI 4 Support: Yes</string>
+    <string name="spec_gpu_3">Specifications:
+        \n\u2022 Base Frequency: 1350 MHz
+        \n\u2022 Boost Frequency: 1545 MHz
+        \n\u2022 Peak Pixel Fill-Rate: 136.0 GP/s
+        \n\u2022 Peak Texture Fill-Rate: 420.2 GT/s
+        \n\u2022 Max Performance: 26.90 TFLOPs
+        \n\u2022 Max Memory Size: 11 GB
+        \n\u2022 Memory Type: GDDR6
+        \n\u2022 Memory Interface: 352-bit
+        \n\u2022 HDMI 4K Support: Yes</string>
+
+    <!--TODO: RAM-->
+    <!--NAME-->
+    <string name="name_ram_1">CORSAIR DDR4-3200MHz</string>
+    <string name="name_ram_2">TeamGroup T-Force Xtreem ARGB</string>
+    <string name="name_ram_3">Kingston HyperX Fury </string>
+    <!--SPECS-->
+    <string name="spec_ram_1">Specifications:
+        \n\u2022 Frequency: 3200MHz
+        \n\u2022 Size: 32GB
+        \n\u2022 Type: DDR4</string>
+    <string name="spec_ram_2">Specifications:
+        \n\u2022 Frequency: 3600MHz
+        \n\u2022 Size: 16GB (x2 8GB)
+        \n\u2022 Type: DDR4</string>
+    <string name="spec_ram_3">Specifications:
+        \n\u2022 Frequency: 2666MHz
+        \n\u2022 Size: 8GB (x2 4GB)
+        \n\u2022 Type: DDR4</string>
+
+    <!--TODO: HDD-->
+    <!--NAME-->
+    <string name="name_hdd_1">Seagate 1TB SATA BarraCuda</string>
+    <string name="name_hdd_2">Toshiba 500GB</string>
+    <string name="name_hdd_3">Western Digital WD Blue 2TB</string>
+    <!--SPECS-->
+    <string name="spec_hdd_1">Specifications:
+        \n\u2022 Form Factor: 3.5-inch
+        \n\u2022 Capacity: 1TB</string>
+    <string name="spec_hdd_2">Specifications:
+        \n\u2022 Form Factor: 3.5-inch
+        \n\u2022 Capacity: 500GB</string>
+    <string name="spec_hdd_3">Specifications:
+        \n\u2022 Form Factor: 3.5-inch
+        \n\u2022 Capacity: 2TB</string>
+
+    <!--TODO: SSD-->
+    <!--NAME-->
+    <string name="name_ssd_1">NOT NEEDED</string>
+    <string name="name_ssd_2">KINGSTON A400 240GB SSD</string>
+    <string name="name_ssd_3">WD Green 120GB SSD</string>
+    <!--SPECS-->
+    <string name="spec_ssd_1">NOT NEEDED</string>
+    <string name="spec_ssd_2">Specifications:
+        \n\u2022 Form Factor: 2.5-inch
+        \n\u2022 Capacities: 240GB
+        \n\u2022 Data Transfer: 500MB/s Read and 350MB/s Write</string>
+    <string name="spec_ssd_3">Specifications:
+        \n\u2022 Form Factor: 2.5-inch
+        \n\u2022 Capacities: 120GB
+        \n\u2022 Data Transfer: 545MB/s Read and 350MB/s Write</string>
+
+    <!--TODO: PSU-->
+    <!--NAME-->
+    <string name="name_psu_1">Corsair VS500</string>
+    <string name="name_psu_2">Cooler Master Elite V3</string>
+    <string name="name_psu_3">Cooler Master MWE Bronze V2</string>
+    <!--SPECS-->
+    <string name="spec_psu_1">Specifications:
+        \n\u2022 Form Factor: ATX
+        \n\u2022 Wattage: 500 watts
+        \n\u2022 Certified 80 PLUS: White </string>
+    <string name="spec_psu_2">Specifications:
+        \n\u2022 Form Factor: ATX
+        \n\u2022 Wattage: 450 watts
+        \n\u2022 Certified 80 PLUS: Yes</string>
+    <string name="spec_psu_3">Specifications:
+        \n\u2022 Form Factor: ATX
+        \n\u2022 Wattage: 700 watts
+        \n\u2022 Certified 80 PLUS: Bronze</string>
+
+</resources>
+

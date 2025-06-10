@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/design_lesson_background"
+    android:forceDarkAllowed="false"
+    android:orientation="vertical"
+    tools:context=".Fragment_Menu_AddOn_Lesson">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.5"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/lesson_lessons_background"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="0dp">
+
+                    <TextView
+                        android:id="@+id/addon_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/open_sans_regular"
+                        android:gravity="center"
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="@color/black_primary" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="8">
+
+                    <ImageView
+                        android:id="@+id/prof_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:src="@drawable/logo" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="8"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/open_sans_regular"
+                        android:gravity="center"
+                        android:text="These are the lesson that your professor have given you. Enjoy!"
+                        android:textColor="@color/com_facebook_blue" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/lesson_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="@font/open_sans_regular"
+                            android:gravity="center"
+                            android:text="LESSONS"
+                            android:textColor="@color/black_primary"
+                            android:textStyle="bold" />
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="20dp"
+                            android:fillViewport="false">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <!--LESSONS-->
+                                <LinearLayout
+                                    android:id="@+id/professor_lesson_container"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:paddingBottom="40dp">
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/lesson_lesson_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:paddingBottom="40dp">
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--Loading Bar-->
+        <LinearLayout
+            android:id="@+id/professor_constraintlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/loading_background"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:indeterminateTint="@color/white"
+                    android:minWidth="60dp"
+                    android:minHeight="60dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

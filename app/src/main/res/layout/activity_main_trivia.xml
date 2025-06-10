@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDialogContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#95000000"
+    android:forceDarkAllowed="false"
+    android:paddingLeft="150dp"
+    android:paddingTop="80dp"
+    android:paddingRight="150dp"
+    android:paddingBottom="80dp">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/trivia_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="0dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.8"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/trivia" />
+
+                    <TextView
+                        android:id="@+id/colw_facts"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/heal_the_world"
+                        android:gravity="center"
+                        android:text="C-OWL FACTS"
+                        android:textColor="@color/black_primary"
+                        android:textSize="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:id="@+id/trivia_ok"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:background="@drawable/ripple_2"
+                            android:padding="0dp"
+                            android:src="@drawable/feedback_close" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/trivia_trivia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="40dp"
+                    android:autoSizeMaxTextSize="18dp"
+                    android:autoSizeMinTextSize="15dp"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center_vertical"
+                    android:text="Apollo 11 landed two men on moon. The combined power of all the computers in Apollo 11 is much less than the power of today's mobile phone."
+                    android:textColor="@color/black_primary" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

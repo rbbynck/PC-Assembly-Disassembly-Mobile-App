@@ -1,0 +1,2266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e5e5"
+    android:forceDarkAllowed="false"
+    android:orientation="horizontal"
+    tools:context=".Fragment_Menu_Simulation_Time">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/simulation_time_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/simulation_image_0" />
+
+        <!--Case Screw-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_case_screw_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_case_screw_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_1_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.656"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.051" />
+
+            <ImageView
+                android:id="@+id/simulation_time_case_screw_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_1_item_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.352"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.051" />
+
+            <ImageView
+                android:id="@+id/simulation_time_case_screw_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_1_item_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.363"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.887" />
+
+            <ImageView
+                android:id="@+id/simulation_time_case_screw_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_1_item_4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.642"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.887" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Front Case Lid-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_frontcaselid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_frontcaselid_item"
+                android:layout_width="344dp"
+                android:layout_height="344dp"
+                android:tag="simulation_image_2_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.579"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard: Psu Cables-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_motherboardpsucables_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboardpsucables_4pin"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:tag="simulation_image_2_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.286"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.132" />
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboardpsucables_24pin"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:tag="simulation_image_2_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.636"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.365" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard: PSU Cables - 4 Pin-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_motherboardpsucables4pin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboardpsucables4pin_item"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:tag="simulation_image_4_1_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.577"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.623" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard: PSU Cables - 24 Pin-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_motherboardpsucables24pin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboardpsucables24pin_item"
+                android:layout_width="150dp"
+                android:layout_height="220dp"
+                android:tag="simulation_image_4_2_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.46"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.364" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard: SATA Cable-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_motherboardsata_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboardsata_item"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:tag="simulation_image_2_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.664"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.821" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard: Sata Cables-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_motherboardpsatacables_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboardpsatacables_1_item"
+                android:layout_width="197dp"
+                android:layout_height="117dp"
+                android:tag="simulation_image_4_4_1_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.616"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.378" />
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboardpsatacables_2_item"
+                android:layout_width="197dp"
+                android:layout_height="117dp"
+                android:tag="simulation_image_4_4_2_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.616"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.893" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard: Front Panel Cable-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_motherboardfrontpanel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboardfrontpanel_item"
+                android:layout_width="65dp"
+                android:layout_height="42dp"
+                android:tag="simulation_image_2_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.608"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.905" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard: Front Panel Cables-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_motherboardfrontpanelcable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboardfrontpanelcable_item"
+                android:layout_width="199dp"
+                android:layout_height="173dp"
+                android:tag="simulation_image_4_5_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.502" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Back View Case Lid-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_backviewcaselid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_backviewcaselid_item"
+                android:layout_width="280dp"
+                android:layout_height="334dp"
+                android:tag="simulation_image_6_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.429"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.375" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Storage-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_storage_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_storage_item"
+                android:layout_width="197dp"
+                android:layout_height="144dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.36"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.847" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--SSD Cords-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_ssd_cords_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_ssd_cordspsu_item"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:tag="simulation_image_8_1_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.351"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.9" />
+
+            <ImageView
+                android:id="@+id/simulation_time_ssd_cordssata_item"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:tag="simulation_image_8_2_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.708"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.806" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--SSD Screws-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_ssd_screw_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_ssd_screw_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_10_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.757"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.406" />
+
+            <ImageView
+                android:id="@+id/simulation_time_ssd_screw_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_10_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.233"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.429" />
+
+            <ImageView
+                android:id="@+id/simulation_time_ssd_screw_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_10_item_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.304"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.8" />
+
+            <ImageView
+                android:id="@+id/simulation_time_ssd_screw_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_10_item_4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.774" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--SSD SSD-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_ssd_ssd_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_ssd_ssd_item"
+                android:layout_width="306dp"
+                android:layout_height="187dp"
+                android:tag="simulation_image_10_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.372" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--HDD Cords-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_hdd_cords_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_hdd_cordspsu_item"
+                android:layout_width="232dp"
+                android:layout_height="197dp"
+                android:tag="simulation_image_14_1_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.369"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.901" />
+
+            <ImageView
+                android:id="@+id/simulation_time_hdd_cordssata_item"
+                android:layout_width="162dp"
+                android:layout_height="194dp"
+                android:tag="simulation_image_14_2_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.747"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.903" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--HDD Screws 1-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_hdd_screw_1_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_hdd_screw_1_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_17_0_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.801"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.538" />
+
+            <ImageView
+                android:id="@+id/simulation_time_hdd_screw_1_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_17_0_item_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.595"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.538" />
+
+            <ImageView
+                android:id="@+id/simulation_time_hdd_screw_1_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_17_0_item_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.538" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--HDD Screws 2-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_hdd_screw_2_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_hdd_screw_2_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_17_1_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.804"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.538" />
+
+            <ImageView
+                android:id="@+id/simulation_time_hdd_screw_2_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_17_1_item_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.435"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.538" />
+
+            <ImageView
+                android:id="@+id/simulation_time_hdd_screw_2_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_17_1_item_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.197"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--HDD HDD-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_hdd_hdd_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_hdd_hdd_item"
+                android:layout_width="406dp"
+                android:layout_height="213dp"
+                android:tag="simulation_image_18_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.108" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--4 Pin Cable-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_4pin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_4pin_item"
+                android:layout_width="258dp"
+                android:layout_height="242dp"
+                android:tag="simulation_image_21_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--SATA Cable-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_sata_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_sata_1"
+                android:layout_width="209dp"
+                android:layout_height="195dp"
+                android:tag="simulation_image_24_1_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.344"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.418" />
+
+            <ImageView
+                android:id="@+id/simulation_time_sata_2"
+                android:layout_width="151dp"
+                android:layout_height="161dp"
+                android:tag="simulation_image_24_2_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.671"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.457" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--PSU Screws-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_psu_screw_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_psu_screw_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_10_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.77"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.187" />
+
+            <ImageView
+                android:id="@+id/simulation_time_psu_screw_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_10_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.187" />
+
+            <ImageView
+                android:id="@+id/simulation_time_psu_screw_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_10_item_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.816" />
+
+            <ImageView
+                android:id="@+id/simulation_time_psu_screw_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_10_item_4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.77"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.848" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--PSU-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_psu_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_psu_item"
+                android:layout_width="548dp"
+                android:layout_height="230dp"
+                android:tag="simulation_image_27_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard VC Screw-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_vcscrew_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_vcscrew"
+                android:layout_width="107dp"
+                android:layout_height="96dp"
+                android:tag="simulation_image_21_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.213"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.801" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--VC Screws-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_vc_screw_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_vc_screw_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:tag="simulation_image_31_0_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.24" />
+
+            <ImageView
+                android:id="@+id/simulation_time_vc_screw_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:tag="simulation_image_31_0_item_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.686" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--VC-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_vc_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_vc_item"
+                android:layout_width="720dp"
+                android:layout_height="202dp"
+                android:tag="simulation_image_31_0_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard RAM-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_ram_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_ram_item"
+                android:layout_width="99dp"
+                android:layout_height="222dp"
+                android:tag="simulation_image_21_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.568"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.125" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--RAM-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_ram_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_ram_1"
+                android:layout_width="505dp"
+                android:layout_height="30dp"
+                android:tag="simulation_image_38_0_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.333" />
+
+            <ImageView
+                android:id="@+id/simulation_time_ram_2"
+                android:layout_width="505dp"
+                android:layout_height="30dp"
+                android:tag="simulation_image_38_0_item_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.424" />
+
+            <ImageView
+                android:id="@+id/simulation_time_ram_3"
+                android:layout_width="505dp"
+                android:layout_height="30dp"
+                android:tag="simulation_image_38_0_item_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.515" />
+
+            <ImageView
+                android:id="@+id/simulation_time_ram_4"
+                android:layout_width="505dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_38_0_item_4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.641" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--MOBO Heatsink Cable-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_heatsink_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_heatsink_item"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="simulation_image_10_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.525"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.148" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Heatsink Cable-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_heatsink_cable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_heatsink_cable_item"
+                android:layout_width="223dp"
+                android:layout_height="278dp"
+                android:tag="simulation_image_40_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Heatsink Screw 1-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_heatsink_screw_1_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_heatsink_screw_1_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:tag="simulation_image_41_0_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.469"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.078" />
+
+            <ImageView
+                android:id="@+id/simulation_time_heatsink_screw_1_2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:tag="simulation_image_41_0_item_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.469"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.95" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Heatsink Screw 2-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_heatsink_screw_2_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_heatsink_screw_2_1"
+                android:layout_width="61dp"
+                android:layout_height="41dp"
+                android:tag="simulation_image_42_0_item_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.58"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.081" />
+
+            <ImageView
+                android:id="@+id/simulation_time_heatsink_screw_2_2"
+                android:layout_width="61dp"
+                android:layout_height="41dp"
+                android:tag="simulation_image_42_0_item_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.58"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.981" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Heatsink-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_heatsink_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_heatsink_item"
+                android:layout_width="394dp"
+                android:layout_height="277dp"
+                android:tag="simulation_image_43_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.644"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.301" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--CPU Handle Bar-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_cpu_handle_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_cpu_handle"
+                android:layout_width="396dp"
+                android:layout_height="31dp"
+                android:tag="simulation_image_43_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.549"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.881" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--CPU-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_cpu_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_cpu"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:tag="simulation_image_45_0_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.48"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.35" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard Screws-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_screws_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_1"
+                android:layout_width="274dp"
+                android:layout_height="70dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.423"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.055" />
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_2"
+                android:layout_width="56dp"
+                android:layout_height="118dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.264"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.851" />
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_3"
+                android:layout_width="145dp"
+                android:layout_height="98dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.573"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.835" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Mobo Screws 1 1-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_screws_1_1_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_1_1"
+                android:layout_width="79dp"
+                android:layout_height="76dp"
+                android:tag="simulation_image_47_1_1_0_item"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.535"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.392" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Mobo Screws 1 2-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_screws_1_2_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_1_2"
+                android:layout_width="108dp"
+                android:layout_height="106dp"
+                android:tag="simulation_image_47_1_2_0_item"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.397" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Mobo Screws 1 3-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_screws_1_3_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_1_3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:tag="simulation_image_47_1_3_0_item"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.537"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.451" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Mobo Screws 2 1-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_screws_2_1_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_2_1"
+                android:layout_width="229dp"
+                android:layout_height="187dp"
+                android:tag="simulation_image_47_2_1_0_item"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.623"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.433" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Mobo Screws 2 2-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_screws_2_2_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_2_2"
+                android:layout_width="232dp"
+                android:layout_height="196dp"
+                android:tag="simulation_image_47_2_2_0_item"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.619"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.359" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Mobo Screws 3 1-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_screws_3_1_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_3_1"
+                android:layout_width="134dp"
+                android:layout_height="133dp"
+                android:tag="simulation_image_47_3_1_0_item"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.599" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Mobo Screws 3 2-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_screws_3_2_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_3_2"
+                android:layout_width="191dp"
+                android:layout_height="206dp"
+                android:tag="simulation_image_47_3_2_0_item"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.544"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.422" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Mobo Screws 3 3-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_mobo_screws_3_3_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_mobo_screws_3_3"
+                android:layout_width="162dp"
+                android:layout_height="150dp"
+                android:tag="simulation_image_47_3_3_0_item"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--Motherboard-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/simulation_time_motherboard_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/simulation_time_motherboard_item"
+                android:layout_width="293dp"
+                android:layout_height="280dp"
+                android:tag="simulation_image_46_0_123_item"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.411"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.507" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="4">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/simulation_time_item_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="4"
+                        android:background="#4AF8F8F8"
+                        android:gravity="center"
+                        android:text="Motherboard"
+                        android:textColor="@color/black_primary" />
+
+                    <androidx.viewpager2.widget.ViewPager2
+                        android:id="@+id/viewPagerImageSlider"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingTop="80dp"
+                        android:paddingBottom="80dp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/simulation_time_item"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:tag="sds"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/simulation_time_item_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="190dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="120dp"
+                    android:tag="sds" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/simulation_time_disassemble"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <!--Motherboard-->
+                        <View
+                            android:id="@+id/simulation_time_motherboard_disassemble"
+                            android:layout_width="371dp"
+                            android:layout_height="308dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.411"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.507" />
+                        <!--Motherboard Screws-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_1_disassemble"
+                            android:layout_width="274dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.286"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.055" />
+
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_2_disassemble"
+                            android:layout_width="56dp"
+                            android:layout_height="118dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.109"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.847" />
+
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_3_disassemble"
+                            android:layout_width="145dp"
+                            android:layout_height="98dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.594"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.812" />
+                        <!--Mobo Screws 3 3-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_3_3_disassemble"
+                            android:layout_width="180dp"
+                            android:layout_height="166dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.551" />
+                        <!--Mobo Screws 3 2-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_3_2_disassemble"
+                            android:layout_width="244dp"
+                            android:layout_height="214dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.545"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.431" />
+                        <!--Mobo Screws 3 1-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_3_1_disassemble"
+                            android:layout_width="170dp"
+                            android:layout_height="167dp"
+                            android:tag="simulation_image_47_3_1_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.455"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.595" />
+                        <!--Mobo Screws 2 2-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_2_2_disassemble"
+                            android:layout_width="232dp"
+                            android:layout_height="218dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.384" />
+                        <!--Mobo Screws 2 1-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_2_1_disassemble"
+                            android:layout_width="225dp"
+                            android:layout_height="209dp"
+                            android:tag="simulation_image_47_2_1_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.501"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.41" />
+                        <!--Mobo Screws 1 3-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_1_3_disassemble"
+                            android:layout_width="179dp"
+                            android:layout_height="164dp"
+                            android:tag="simulation_image_47_1_3_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.501"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.433" />
+                        <!--Mobo Screws 1 2-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_1_2_disassemble"
+                            android:layout_width="136dp"
+                            android:layout_height="136dp"
+                            android:tag="simulation_image_47_1_2_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.409"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.392" />
+                        <!--Mobo Screws 1 1-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_screws_1_1_disassemble"
+                            android:layout_width="113dp"
+                            android:layout_height="112dp"
+                            android:tag="simulation_image_47_1_1_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.501"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.362" />
+                        <!--CPU-->
+                        <View
+                            android:id="@+id/simulation_time_cpu_disassemble"
+                            android:layout_width="261dp"
+                            android:layout_height="234dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.501"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.349" />
+                        <!--CPU Handle Bar-->
+                        <View
+                            android:id="@+id/simulation_time_cpu_handle_disassemble"
+                            android:layout_width="136dp"
+                            android:layout_height="287dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.83"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.506" />
+                        <!--Heatsink-->
+                        <View
+                            android:id="@+id/simulation_time_heatsink_item_disassemble"
+                            android:layout_width="394dp"
+                            android:layout_height="277dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.594"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.325" />
+                        <!--Heatsink Screw 2-->
+                        <View
+                            android:id="@+id/simulation_time_heatsink_screw_2_1_disassemble"
+                            android:layout_width="63dp"
+                            android:layout_height="58dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.586"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.082" />
+
+                        <View
+                            android:id="@+id/simulation_time_heatsink_screw_2_2_disassemble"
+                            android:layout_width="66dp"
+                            android:layout_height="66dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.566"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.993" />
+                        <!--Heatsink Screw 1-->
+                        <View
+                            android:id="@+id/simulation_time_heatsink_screw_1_1_disassemble"
+                            android:layout_width="72dp"
+                            android:layout_height="66dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.413"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.054" />
+
+                        <View
+                            android:id="@+id/simulation_time_heatsink_screw_1_2_disassemble"
+                            android:layout_width="64dp"
+                            android:layout_height="59dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.405"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.976" />
+                        <!--Heatsink Cable-->
+                        <View
+                            android:id="@+id/simulation_time_heatsink_cable_drag_disassemble"
+                            android:layout_width="203dp"
+                            android:layout_height="177dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.425"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.415" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_heatsink_cable_item_disassemble"
+                            android:layout_width="203dp"
+                            android:layout_height="177dp"
+                            android:src="@drawable/simulation_image_40_0_item"
+                            android:tag="simulation_image_40_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.003"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+
+                        <!--Motherboard RAM-->
+                        <View
+                            android:id="@+id/simulation_time_mobo_ram_item_disassemble"
+                            android:layout_width="99dp"
+                            android:layout_height="222dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.572"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.202" />
+                        <!--RAM-->
+                        <View
+                            android:id="@+id/simulation_time_ram_disassemble"
+                            android:layout_width="489dp"
+                            android:layout_height="152dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.451" />
+                        <!--Motherboard Videocard-->
+                        <View
+                            android:id="@+id/simulation_time_videocard_disassemble"
+                            android:layout_width="239dp"
+                            android:layout_height="78dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.16"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.666" />
+                        <!--VC-->
+                        <View
+                            android:id="@+id/simulation_time_vc_item_disassemble"
+                            android:layout_width="420dp"
+                            android:layout_height="202dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.366"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <!--VC Screws-->
+                        <View
+                            android:id="@+id/simulation_time_vc_screw_1_disassemble"
+                            android:layout_width="78dp"
+                            android:layout_height="68dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.396"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.239" />
+
+                        <View
+                            android:id="@+id/simulation_time_vc_screw_2_disassemble"
+                            android:layout_width="77dp"
+                            android:layout_height="74dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.395"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.688" />
+
+                        <!--PSU-->
+                        <View
+                            android:id="@+id/simulation_time_psu_item_disassemble"
+                            android:layout_width="548dp"
+                            android:layout_height="230dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.8" />
+                        <!--PSU Screws-->
+                        <View
+                            android:id="@+id/simulation_time_psu_screw_1_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.842"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.206" />
+
+                        <View
+                            android:id="@+id/simulation_time_psu_screw_2_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.177" />
+
+                        <View
+                            android:id="@+id/simulation_time_psu_screw_3_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.822" />
+
+                        <View
+                            android:id="@+id/simulation_time_psu_screw_4_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.842"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.822" />
+                        <!--SATA Cable-->
+                        <View
+                            android:id="@+id/simulation_time_sata_1_disassemble"
+                            android:layout_width="386dp"
+                            android:layout_height="304dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.301"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <!--4 Pin Cable-->
+                        <View
+                            android:id="@+id/simulation_time_4pin_item_disassemble"
+                            android:layout_width="181dp"
+                            android:layout_height="131dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.393"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.449" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_4pin_disassemble"
+                            android:layout_width="156dp"
+                            android:layout_height="171dp"
+                            android:src="@drawable/simulation_image_21_0_item"
+                            android:tag="simulation_image_21_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.003"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.994" />
+                        <!--Storage-->
+                        <View
+                            android:id="@+id/simulation_time_storage_item_disassemble"
+                            android:layout_width="197dp"
+                            android:layout_height="144dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.205"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.796" />
+                        <!--HDD HDD-->
+                        <View
+                            android:id="@+id/simulation_time_hdd_hdd_item_disassemble"
+                            android:layout_width="406dp"
+                            android:layout_height="213dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.349"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.108" />
+                        <!--HDD Screws 2-->
+                        <View
+                            android:id="@+id/simulation_time_hdd_screw_2_1_disassemble"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.965"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.537" />
+
+                        <View
+                            android:id="@+id/simulation_time_hdd_screw_2_2_disassemble"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.365"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.537" />
+
+                        <View
+                            android:id="@+id/simulation_time_hdd_screw_2_3_disassemble"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.002"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.537" />
+                        <!--HDD Screws 1-->
+                        <View
+                            android:id="@+id/simulation_time_hdd_screw_1_1_disassemble"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.937"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.541" />
+
+                        <View
+                            android:id="@+id/simulation_time_hdd_screw_1_2_disassemble"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.597"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.541" />
+
+                        <View
+                            android:id="@+id/simulation_time_hdd_screw_1_3_disassemble"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.002"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.548" />
+                        <!--HDD Cords-->
+                        <View
+                            android:id="@+id/simulation_time_hdd_cordspsu_item_disassemble"
+                            android:layout_width="226dp"
+                            android:layout_height="112dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.346"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.33" />
+
+                        <View
+                            android:id="@+id/simulation_time_hdd_cordssata_item_disassemble"
+                            android:layout_width="157dp"
+                            android:layout_height="111dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.885"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.329" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_hdd_cordspsu_disassemble"
+                            android:layout_width="167dp"
+                            android:layout_height="154dp"
+                            android:src="@drawable/simulation_image_14_1_item"
+                            android:tag="simulation_image_14_1_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_hdd_cordssata_disassemble"
+                            android:layout_width="149dp"
+                            android:layout_height="125dp"
+                            android:src="@drawable/simulation_image_14_2_item"
+                            android:tag="simulation_image_14_2_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+                        <!--SSD SSD-->
+                        <View
+                            android:id="@+id/simulation_time_ssd_ssd_item_disassemble"
+                            android:layout_width="342dp"
+                            android:layout_height="192dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.278"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.294" />
+                        <!--SSD Screws-->
+                        <View
+                            android:id="@+id/simulation_time_ssd_screw_1_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.856"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.432" />
+
+                        <View
+                            android:id="@+id/simulation_time_ssd_screw_2_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.066"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.432" />
+
+                        <View
+                            android:id="@+id/simulation_time_ssd_screw_3_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.17"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.78" />
+
+                        <View
+                            android:id="@+id/simulation_time_ssd_screw_4_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.753"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.78" />
+
+                        <!--SSD Cords-->
+                        <View
+                            android:id="@+id/simulation_time_ssd_cordspsu_item_disassemble"
+                            android:layout_width="163dp"
+                            android:layout_height="88dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.224"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.47" />
+
+                        <View
+                            android:id="@+id/simulation_time_ssd_cordssata_item_disassemble"
+                            android:layout_width="108dp"
+                            android:layout_height="91dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.58"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.475" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_ssd_cordspsu_disassemble"
+                            android:layout_width="151dp"
+                            android:layout_height="141dp"
+                            android:src="@drawable/simulation_image_8_1_item"
+                            android:tag="simulation_image_8_1_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.002"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_ssd_cordssata_disassemble"
+                            android:layout_width="155dp"
+                            android:layout_height="156dp"
+                            android:src="@drawable/simulation_image_8_2_item"
+                            android:tag="simulation_image_8_1_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+                        <!--Back View Case Lid-->
+                        <View
+                            android:id="@+id/simulation_time_backviewcaselid_item_disassemble"
+                            android:layout_width="280dp"
+                            android:layout_height="334dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.313"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.384" />
+                        <!--Motherboard: Front Panel Cable-->
+                        <View
+                            android:id="@+id/simulation_time_motherboardfrontpanel_item_disassemble"
+                            android:layout_width="65dp"
+                            android:layout_height="42dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.627"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.905" />
+                        <!--Motherboard: Front Panel Cables-->
+                        <View
+                            android:id="@+id/simulation_time_motherboardfrontpanelcable_item_disassemble"
+                            android:layout_width="222dp"
+                            android:layout_height="70dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.417" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_motherboardfrontpanelcable_disassemble"
+                            android:layout_width="187dp"
+                            android:layout_height="153dp"
+                            android:src="@drawable/simulation_image_4_5_0_item"
+                            android:tag="simulation_image_4_5_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+                        <!--Motherboard: SATA Cable-->
+                        <View
+                            android:id="@+id/simulation_time_motherboardsata_item_disassemble"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.699"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.764" />
+                        <!--Motherboard: Sata Cables-->
+                        <View
+                            android:id="@+id/simulation_time_motherboardpsatacables_1_item_disassemble"
+                            android:layout_width="133dp"
+                            android:layout_height="105dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.426"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.341" />
+
+                        <View
+                            android:id="@+id/simulation_time_motherboardpsatacables_2_item_disassemble"
+                            android:layout_width="128dp"
+                            android:layout_height="103dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.433"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.747" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_motherboardpsatacables_1_disassemble"
+                            android:layout_width="158dp"
+                            android:layout_height="160dp"
+                            android:src="@drawable/simulation_image_4_4_1_item"
+                            android:tag="simulation_image_4_4_1_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_motherboardpsatacables_2_disassemble"
+                            android:layout_width="152dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/simulation_image_4_4_2_item"
+                            android:tag="simulation_image_4_4_2_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+                        <!--Motherboard: Psu Cables-->
+
+                        <View
+                            android:id="@+id/simulation_time_motherboardpsucables_4pin_disassemble"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.139"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.15" />
+
+                        <!--Motherboard: PSU Cables - 24 Pin-->
+
+                        <View
+                            android:id="@+id/simulation_time_motherboardpsucables_24pin_disassemble"
+                            android:layout_width="80dp"
+                            android:layout_height="100dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.672"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.369" />
+
+                        <View
+                            android:id="@+id/simulation_time_motherboardpsucables24pin_item_disassemble"
+                            android:layout_width="75dp"
+                            android:layout_height="191dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.376"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.349" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_motherboardpsucables24pin_disassemble"
+                            android:layout_width="201dp"
+                            android:layout_height="176dp"
+                            android:src="@drawable/simulation_image_4_2_0_item"
+                            android:tag="simulation_image_4_2_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+                        <!--Motherboard: PSU Cables - 4 Pin-->
+
+                        <View
+                            android:id="@+id/simulation_time_motherboardpsucables4pin_item_disassemble"
+                            android:layout_width="71dp"
+                            android:layout_height="110dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.548"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.612" />
+
+                        <ImageView
+                            android:id="@+id/simulation_time_motherboardpsucables4pin_disassemble"
+                            android:layout_width="149dp"
+                            android:layout_height="134dp"
+                            android:src="@drawable/simulation_image_4_1_0_item"
+                            android:tag="simulation_image_4_1_0_item"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <!--Front Case Lid-->
+                        <View
+                            android:id="@+id/simulation_time_frontcaselid_item_disassemble"
+                            android:layout_width="344dp"
+                            android:layout_height="344dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.563"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+
+                        <!--Case Screw-->
+                        <View
+                            android:id="@+id/simulation_time_case_screw_1_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.699"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.051" />
+
+                        <View
+                            android:id="@+id/simulation_time_case_screw_2_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.238"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.051" />
+
+                        <View
+                            android:id="@+id/simulation_time_case_screw_3_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.261"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.893" />
+
+                        <View
+                            android:id="@+id/simulation_time_case_screw_4_disassemble"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.672"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.893" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/simulation_time_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="0:00"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/actionBarItemBackground"
+                    android:src="@drawable/timer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="4">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/simulation_exit"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="?android:attr/actionBarItemBackground"
+                        android:src="@drawable/simulation_exit"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

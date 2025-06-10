@@ -1,0 +1,937 @@
+<resources>
+    <!--TODO: MODULE CONTENT-->
+
+    <!--TODO: LESSON 1-->
+    <!--TODO: MODULE 1-->
+    <!--TODO: PART 1-->
+    <string name="module_1_1_1_0_content">In this mobile app, you will learn how to assemble and disassemble a Personal Computer.</string>
+    <!--TODO: PART 2-->
+    <string name="module_1_1_2_0_content">The system unit, also known as a "tower" or "chassis," contains the main components of a desktop computer.
+        It includes the motherboard, CPU, RAM, and other components. The case that houses these components is also part of the system unit.
+        \nPeripheral devices, such as the monitor, keyboard, and mouse are separate from the system unit. Peripherals, combined with the system unit, create a "workstation."
+        \nSome modern computers, such as the iMac, combine the system unit and monitor into a single device. In this case, the monitor is part of the system unit.
+        While laptops also have built-in displays, they are not considered system units, since the term only refers to desktop computers.
+        \n\nChristensson, P. (2020, December 12). System Unit Definition. Retrieved 2021, Jan 25, from: https://techterms.com.
+
+    </string>
+    <!--TODO: PART 3-->
+    <string name="module_1_1_3_0_content">Some system unit model have different components based on what type the system unit will be used.
+        \nHere are the six basic components of a system unit must have:</string>
+    <string name="module_1_1_3_1_content">* Motherboard - The core of the Computer everything is connected to it.</string>
+    <string name="module_1_1_3_2_content">* Processor - CPU ( Central Processing Unit ) the brain of the PC.</string>
+    <string name="module_1_1_3_3_content">* RAM - (Random Access Memory) is a Memory Stick holds all program and data the processor is using at a given time.</string>
+    <string name="module_1_1_3_4_content">* Hard Drive - The main storage device of computer.</string>
+    <string name="module_1_1_3_5_content">* Video Card - Controls computer display via monitor.</string>
+    <string name="module_1_1_3_6_content">* Power Supply - Responsible of feeding electrical power to every computer parts.</string>
+
+    <!--TODO: MODULE 2-->
+    <!--TODO: PART 1-->
+    <string name="module_1_2_1_0_content">The motherboard is essentially a large PCB (printed circuit board), and the various lines you see are embedded copper tracks.
+        These copper tracks are responsible for linking up your various parts and allow communication to take place between them.
+        \n\nThink of the motherboard as an orchestral conductor bringing the various parts together in perfect harmony. On a motherboard, you can expect to see standard components like capacitors, resistors, and VRMs, which manage the electrical current.
+        \n\nIf you still aren\'t grasping this, don\'t worry, we are going to go into more detail for the terminology.</string>
+    <!--TODO: PART 2-->
+    <string name="module_1_2_2_0_content">Let\'s take a look at a typical higher level motherboard for an example of connector and port types.
+        \nWe chose the Asus Prime X470-Pro for its inclusion of many modern motherboard features, and its contrasting color design, which makes it easier to see smaller board components.</string>
+    <string name="module_1_2_2_1_content">1.CPU\n4. PCIe x16 slot\n7. SATA ports\n10. USB 3.1 Gen1 header\n13. CPU power connector\n16. Fan headers\n19. COM/Serial header.</string>
+    <string name="module_1_2_2_2_content">2. Chipset\n5. PCI x1 slot\n8. Front panel connectors\n11. USB 3.1 Gen2 header\n14. BIOS chips\n17. Front panel header\n20. TPM header.</string>
+    <string name="module_1_2_2_3_content">3. DIMM/RAM slots\n6. M.2 connector\n9. USB 2. header\n12. ATX power connector\n15. CMOS battery\n18. VRM heatsink\n21. RGB header.</string>
+    <string name="module_1_2_2_4_content">Of course, not all boards feature all types, and things like fan headers, M.2 connectors, and the BIOS battery will be located in different spots on different boards.</string>
+    <!--TODO: PART 3-->
+    <string name="module_1_2_3_0_content">These days, most motherboards feature just two slot types: the long PCIe x16 and the short PCIe x1 slot.
+        You may occasionally see an x4 slot (which sits between those two in length, but they\'re pretty rare. And since you can install an x4 or an x1 card into an x16 slot,
+        x4 slots aren\'t all that useful unless you\'re holding on to an old expansion card (that somehow has modern drivers) and you want to use your x16 slots for graphics cards.</string>
+    <!--TODO: PART 4-->
+    <string name="module_1_2_4_0_content">* RJ-45 (Registered Jack 45)/LAN port - This port allows connection to a Local Area Network (LAN) through a network hub using a RJ-45 cable.</string>
+    <string name="module_1_2_4_1_content">* Analog Audio port - This port connects a tape, CD, DVD player or other audio sources.</string>
+    <string name="module_1_2_4_2_content">* VGA Port(Video Graphics Array)/D-Sub - VGA cables carry an analog signal as opposed to a digital signal (ones and zeroes). Using higher frequencies,
+        it\'s possible to reach a relatively high range of video resolutions. However, video quality directly responds to cable quality, and doubly so on higher resolutions. Due to this, the quality of a VGA image can variate notable across different makes of cables.</string>
+    <string name="module_1_2_4_3_content">* USB (Universal Serial Bus) Ports - There are usually a couple of these ports located on each motherboard used for connecting pen drives and external hard drives, like Ipods or Mp3 players.</string>
+    <string name="module_1_2_4_4_content">* PS/2 Keyboard Port (purple) - This port is for a PS/2 keyboard</string>
+    <string name="module_1_2_4_5_content">* PS/2 mouse port (green) - This port is for a PS/2 mouse.</string>
+    <string name="module_1_2_4_6_content">* HDMI Connector(High-Definition Multimedia Interface)- HDMI is a digital interface for transmitting audio and video data in a single cable.
+        It is supported by most HDTVs and related components, such as DVD and Blu-ray players, cable boxes, and video game systems.</string>
+    <string name="module_1_2_4_7_content">* DVI (Digital Visual Interface) connector - It is used to send digital information from a computer to a digital display, such as a flat-panel LCD monitor.</string>
+    <!--TODO: PART 5-->
+    <string name="module_1_2_5_0_content">DIMM (dual in-line memory module) slots are the place on your motherboard where the RAM goes. As such, you may also see DIMM slots referred to as "RAM slots."
+        \nThe more DIMM slots your motherboard has, the more RAM you can install. Your motherboard may have anywhere from one to eight DIMM slots, but most mainstream motherboards have four.
+        \nMotherboards come in three sizes. They are, from smallest to biggest, Mini-ITX, Micro-ATX and ATX. Mini-ITX motherboards usually have a maximum of two DIMM slots in order to save space.
+        Motherboards running low-end chipsets also tend to have just two DIMM slots. Contrastingly, motherboards based on high-end chipsets, like AMD’s X399 chipset for its Threadripper CPUs or Intel\'s X299 chipset for its Core X CPUs, have eight DIMM slots.
+        \nSo how many DIMM slots do you actually need? It depends on how much RAM you want and how many DIMMs you\'ll use to get there. 16GB of RAM should do the trick if you\'re mostly focused on mainstream tasks and games, while 32GB is more than enough. You can achieve 32GB RAM with two DIMM slots (using two 16GB RAM sticks).
+        However, it\'d be cheaper to reach 32GB of RAM via four DIMM slots (using four 8GB RAM sticks).</string>
+
+    <!--TODO: MODULE 3-->
+    <!--TODO: PART 1-->
+    <string name="module_1_3_1_0_content">If you\'re overwhelmed by all the features and details the last lesson, you\'ll be relieved to hear that,
+        when it comes to motherboard size, your options are pretty simple. The vast majority of today\'s consumer motherboards come in one of three sizes: ATX, Micro-ATX, and Mini-ITX.</string>
+    <!--TODO: PART 2-->
+    <string name="module_1_3_2_0_content">ATX (Advanced Technology eXtended) is a motherboard and power supply configuration specification developed by Intel in 1995 to improve on previous de facto standards like the AT design.
+        It was the first major change in desktop computer enclosure, motherboard and power supply design in many years, improving standardization and interchangeability of parts.
+        The specification defines the key mechanical dimensions, mounting point, I/O panel, power and connector interfaces between a computer case, a motherboard and a power supply.
+        \n\n\nATX is the most common motherboard design. Dimensions of a full-size ATX board are 12 × 9.6 in (305 × 244 mm), which allows many ATX chassis to also accept microATX boards.
+        The official ATX specifications were released by Intel in 1995 and have been revised numerous times since. The most recent ATX motherboard specification is version 2.2. The most recent ATX12V power supply unit specification is 2.4,[3] released in April 2013.
+        EATX (Extended ATX) is a bigger version of the ATX motherboard with 12 x 13 inch dimensions. Advantages of having an EATX motherboard is dual socket support.</string>
+    <string name="module_1_3_2_1_content">Specifications:
+        \n\u2022 LGA1151 Socket supports 8th/9th Gen Intel® Core™/Pentium/ Celeron Processors
+        \n\u2022 4 x DIMM sockets support 2666/2400/2133 MHz UDIMM up to 64GB system memory
+        \n\u2022 Rich Expansion: 1 x PCIe x16, 2 x PCIe x4, 2 x PCIe x1, 2 x PCI, 2 x M.2
+        \n\u2022 Supports Triple Displays
+        \n\u2022 1 x HDMI, 2 x DisplayPorts, 1 x VGA
+        \n\u2022 Onboard USB: 8 x USB 2.0 and 1 x USB 3.1 Gen 2 Header (2 Ports on Header)
+        \n\u2022 External USB: 6 x USB 3.1 Gen 1 and 1 x USB 3.1 Gen 2 Type C (Speed up to 10Gbps) Connectors
+        \n\u2022 6 x COM Ports
+        \n\u2022 TPM 2.0
+        \n\u2022 Intel® Rapid Storage Technology (with RAID 0, 1, 5 and 10 support)
+        \n\u2022 Intel® Rapid Storage Technology for PEI Express Storage
+        \n\u2022 Intel® Active Management Technology (Intel® AMT)
+        \n\u2022 Intel® Optane Memory Support
+        \n\u2022 Intel® Smart Sound Technology
+        \n\u2022 Intel® High Definition Audio (Intel® HD Audio)
+        \n\u2022 Intel® Platform Trust Technology (Intel® PTT)</string>
+    <!--TODO: PART 3-->
+    <string name="module_1_3_3_0_content">microAT is a standard for motherboards that was introduced in December 1997. The maximum size of a microATX motherboard is 9.6 × 9.6 in (244 × 244 mm). The standard ATX size is 25% longer, at 12 × 9.6 in (305 × 244 mm).
+        \n\nCurrently available microATX motherboards support CPUs from VIA, Intel or AMD.
+        \n\nMini-ITX allows for compact PCs that still have space for one graphics card.
+        \n\nMost modern ATX motherboards have a maximum of seven PCI or PCI-Express expansion slots, while microATX boards only have a maximum of four (four being the maximum permitted by the specification).
+        In order to conserve expansion slots and case space, many manufacturers produce microATX motherboard with a full range of integrated peripherals (especially integrated graphics), which may serve as the basis for small form factor and media center PCs.</string>
+    <string name="module_1_3_3_1_content">Specifications:
+        \n\u2022 Intel H310 Chipset
+        \n\u2022 LGA 1151 Chipset
+        \n\u2022 2x USB 3.1 Gen 1 Type-A and 2x USB 2.0 Type-A
+        \n\u2022 1x HDMI 1.4b and 1x VGA
+        \n\u2022 3x 3.5mm Audio
+        \n\u2022 1x Realtek RTL8111H Gigabit Ethernet
+        \n\u2022 1x Combo PS/2
+        \n\u2022 1x Parellel
+        \n\u2022 2x 288-Pin Memory Slot
+        \n\u2022 Supprots DDR4 2133, 2400, 2666 MHz
+        \n\u2022 Maximum Memory of 32 GB
+        \n\u2022 Non-ECC Unbuffered
+        \n\u2022 4 x SATA III
+        \n\u2022 1 x M Key 2242, 2260, 2280 (PCIe 2.0 x2, SATA III)
+        \n\u2022 1 x PCIe 3.0 x16 and 2 x PCIe 2.0 x1
+        \n\u2022 1 x USB 3.1 / USB 3.2 Gen 1 Header (Supports 2 USB Type-A Port)
+        \n\u2022 2 x USB 2.0 Header (Supports 4 USB Type-A Port)
+        \n\u2022 1 x 4-Pin System and 1 x 4-Pin CPU for Air Cooling
+        \n\u2022 1 x 24-Pin Mainboard and 1 x 4-Pin CPU
+        \n\u2022 1 x S/PDIF and 1 x Speaker
+        \n\u2022 128 Mb ROM </string>
+    <!--TODO: PART 4-->
+    <string name="module_1_3_4_0_content">Mini-ITX is a 17 × 17 cm (6.7 × 6.7 in) motherboard, developed by VIA Technologies in 2001.
+        They are commonly used in small-configured computer systems. Originally, they were a niche product, designed for fan-less cooling with a low power consumption architecture, which made them useful for home theater PC systems, where fan noise can detract from the cinema experience.
+        The four mounting holes in a Mini-ITX board line up with four of the holes in ATX-specification motherboards, and the locations of the backplate and expansion slot are the same (though one of the holes used was optional in earlier versions of the ATX spec).
+        Mini-ITX boards can therefore often be used in cases designed for ATX, micro-ATX and other ATX variants if desired.
+        \n\nThe design provides one expansion slot. Earlier motherboards conventionally have a standard 33 MHz 5V 32-bit PCI slot.
+        Many older case designs use riser cards and some even have two-slot riser cards, although the two-slot riser cards are not compatible with all boards. Some boards based around non-x86 processors have a 3.3V PCI slot,
+        and the Mini-ITX 2.0 (2008) boards have a PCI-Express ×16 slot; these boards are not compatible with the standard PCI riser cards supplied with older ITX (Information Technology eXtended) cases.</string>
+    <string name="module_1_3_4_1_content">Specifications:
+        \n\u2022 Intel® H310 Express Chipset
+        \n\u2022 Supports 9th and 8th Generation Intel® Core™ from i3 up to i9
+        \n\u2022 2 x DDR4 DIMM sockets supporting up to 32 GB of system memory
+        \n\u2022 Dual channel memory architecture
+        \n\u2022 Support for DDR4 2666/2400/2133 MHz memory modules
+        \n\u2022 1 x D-Sub port, supporting a maximum resolution of 1920x1200@60 Hz
+        \n\u2022 1 x DVI-D port, supporting a maximum resolution of 1920x1200@60 Hz
+        \n\u2022 1 x HDMI port, supporting a maximum resolution of 4096x2160@30 Hz
+        \n\u2022 Maximum shared memory of 1 GB
+        \n\u2022 Realtek® ALC887 codec
+        \n\u2022 Realtek® GbE LAN chip (10/100/1000 Mbit)
+        \n\u2022 1 x PCI Express x16 slot, running at x16
+        \n\u2022 1 x M.2 Socket 1 connector for the PCIe wireless communication module (M2_WIFI)
+        \n\u2022 1 x M.2 connector on the back of the motherboard
+        \n\u2022 4 x USB 3.1 Gen 1 ports (2 ports on the back panel, 2 ports available through the internal USB header)
+        \n\u2022 4 x USB 2.0/1.1 ports (2 ports on the back panel, 2 ports available through the internal USB header)
+        \n\u2022 4 x SATA 6Gb/s connectors
+        \n\u2022 1 x front panel header, 1 x front panel audio header and 1 x speaker header
+        \n\u2022 1 x 24-pin ATX main power connector
+        \n\u2022 1 x 4-pin ATX 12V power connector
+        \n\u2022 1 x system fan header</string>
+    <!--TODO: PART 5-->
+    <string name="module_1_3_5_0_content">SIZE:
+        \nAs you can see from the image above, ATX is the largest format of the bunch, measuring 305×244 mm.
+        Following after it is Micro ATX which is a tad shorter at 244×244 mm, and the Mini ITX is the smallest one, measuring at 170×170 mm.
+        \n\nWhen it comes to size itself, it should only concern you if your computer case is smaller than what is required by a certain format. Conversely,
+        there is no need to worry about the case being “too big” for a motherboard since every case has a standardized layout meant to accommodate any motherboard that can physically fit inside.</string>
+    <string name="module_1_3_5_1_content">RAM CAPACITY:
+        /nOne of the big differences is the number of RAM slots incorporated in a motherboard\'s design. While ATX and Micro ATX motherboards can both support up to four RAM modules, the Mini ITX can only support two.That said,
+        a Mini ITX motherboard can only accommodate up to 32 GB of RAM if a 2×16 GB kit is installed. ATX and Micro ATX, on the other hand, can support twice as much memory.</string>
+    <string name="module_1_3_5_2_content">PCIe Slots:
+        \nAn even bigger difference between all three motherboards is the number of PCIe slots incorporated into their respective designs.
+        ATX motherboards have the lead in this department, as they can have up to 7 PCIe slots. The other two are a bit more limited,
+        with Micro ATX motherboards having up to 4 and Mini ITX motherboards having only 1 PCIe slot.
+        \n\nA problem that can arise with Mini ITX motherboards in particular stems from the PCIe slot\'s placement at the very edge of the board.
+        Thus, if the motherboard itself is a tight fit for a certain case, any serious graphics card would be unable to fit without some extra space.</string>
+    <!--TODO: PART 6-->
+    <!--Content-->
+    <string name="module_1_3_6_0_content">You may also run across E-ATX motherboards (Extyended ATX), which are larger than ATX, but those are primarily used in workstation systems</string>
+    <string name="module_1_3_6_1_content">Advantages of having an EATX motherboard is it\'s a dual socket support.</string>
+    <!--TODO: PART 7-->
+    <string name="module_1_3_7_0_content">Before buying a computer or building one, you should consider what form of motherboard will you be using.
+        Of course it will depend on what type of PC Set-up are you going to be using. Below are some examples of it:</string>
+    <string name="module_1_3_7_1_content">GAMING PC</string>
+    <string name="module_1_3_7_2_content">If you\'re building a gaming PC, we advise going with a Micro ATX motherboard for most configurations and only consider ATX for truly high-end PCs.
+        \n\nA Micro ATX motherboard will offer the best value – it has more than enough RAM slots and can even support dual-GPU setups while leaving some slots free for any additionalPCIe expansion cards.
+        The only reason to go with an ATX motherboard is if you\'re planning on using more PCIe slots than a Micro ATX board has available,
+        be it for quad-GPU setups or because of several expansions cards.\n\nNow, a Mini ITX-based gaming PC is not advisable unless your goal is building a compact and portable gaming PC.
+        Obviously, they will be able to fit in the smallest of cases, but you would have to keep the graphics card\'s size in mind as well.
+        Furthermore, a cramped case would need to have good airflow and advanced cooling to prevent excessive heat buildup, especially for more powerful configurations.</string>
+    <string name="module_1_3_7_3_content">WORKSTATION</string>
+    <string name="module_1_3_7_4_content">If you are a professional with high-performance requirements, many of the things said for gaming PCs apply here as well.
+        An ATX motherboard is worth investing in only if you plan on making full use of the extra PCIe slots and Micro ATX remains the best option.
+        \n\nHowever, Mini ITX is less encouraging, solely because of the limited RAM capacity. On top of that, there are heat management factors to consider if you intend on putting it in a small case. And seeing as workstations place a lot of emphasis on CPU power,
+        you would absolutely have to get a good cooling solution, especially if you have overclocking ambitions.</string>
+    <string name="module_1_3_7_5_content">DESKTOP PC</string>
+    <string name="module_1_3_7_6_content">If all you intend to use a PC for is the Internet, multimedia, or occasional office work, the best solution for you would be the cheapest one.
+        That said, it is most likely to be a Micro ATX motherboard once again. In the case that you want a PC that would be small and discreet, a Mini ITX board would be ideal.</string>
+
+    <!--TODO: MODULE 4-->
+    <!--TODO: PART 1-->
+    <string name="module_1_4_1_0_content">One of the main and most important components you\'ll find on the motherboard is the chipset.</string>
+    <!--TODO: PART 2-->
+    <string name="module_1_4_2_0_content">You\'ve probably heard the term “chipset” tossed around when talking about new computers, but what exactly is a chipset,and how does it affect your computer\'s performance?
+        \n\nA chipset is a smaller set of chips that has replaced a larger amount of chips.\n\nA chipset acts like the motherboard\'s communications center and traffic controller,
+        and it ultimately determines what components are compatible with the motherboard including the CPU, RAM, hard drives, and graphics cards. It also dictates your future expansion options, and to what extent, if any, your system can be overclocked.</string>
+    <!--TODO: PART 3-->
+    <string name="module_1_4_3_0_content">Back in the days of computer yore, PC motherboards consisted of lots of discrete integrated circuits.
+        This generally required a separate chip or chips to control each system component like mouse, keyboard, graphics, sounds, and so on.
+        As you can imagine, having all those various chips scattered about was pretty inefficient.
+        \n\nAnd In order to address this problem, computer engineers needed to devise a better system, and began integrating these disparate chips into fewer chips.
+        \n\nWith the advent of the PCI bus, a new design emerged: bridges. Instead of a bunch of chips, motherboards came with a northbridge and a southbridge, which consisted of just two chips with very specific duties and purposes.</string>
+    <!--TODO: PART 4-->
+    <string name="module_1_4_4_0_content">The northbridge chip was known as such because it was located at the top, or northern, portion of the motherboard.
+        This chip was directly connected to the CPU and acted as a communication middleman for a system\'s higher speed components: RAM (memory controllers),
+        PCI Express controller,and on older motherboard designs, the AGP controller.
+        If these components wanted to talk to the CPU, they had to go through the northbridge first.</string>
+    <string name="module_1_4_4_1_content">The name is derived from drawing the architecture in the fashion of a map.
+        The CPU would be at the top of the map comparable to due north on most general purpose geographical maps.
+        The CPU would be connected to the chipset via a fast bridge (the northbridge) located north of other system devices as drawn.
+        The northbridge would then be connected to the rest of the chipset via a slow bridge (the southbridge) located south of other system devices as drawn.
+        \n\nThe northbridge plays an important part in how far a computer can be overclocked. This chip typically gets hotter as processor speed becomes faster,
+        requiring more cooling. There is a limit to CPU overclocking, as digital circuits are limited by physical factors such as rise, fall, delay and storage times of the transistors, current gain bandwidth product, parasitic capacitance,
+        and propagation delay, which increases with operating temperature; consequently most overclocking applications have software-imposed limits on the multiplier and external clock setting.
+        \nAdditionally, heat is a major limiting factor, as higher voltages are needed to properly activate field effect transistors inside CPUs and this higher voltage produces larger amounts of heat, requiring greater thermal solutions on the die.</string>
+    <!--TODO: PART 5-->
+    <string name="module_1_4_5_0_content">The southbridge is one of the two chips in the core logic chipset on a personal computer (PC) motherboard, the other being the northbridge.
+        The southbridge typically implements the slower capabilities of the motherboard in a northbridge/southbridge chipset computer architecture.
+        \n\nThe southbridge can usually be distinguished from the northbridge by not being directly connected to the CPU. Rather, the northbridge ties the southbridge to the CPU.
+        Through the use of controller integrated channel circuitry,
+        the northbridge can directly link signals from the I/O units to the CPU for data control and access.</string>
+    <string name="module_1_4_5_1_content">The name is derived from representing the architecture in the fashion of a map and was first described as such with the introduction of the PCI Local Bus Architecture in 1991.
+        At Intel, the authors of the PCI specification viewed the PCI local bus as being at the very centre of the PC platform architecture.
+        \n\n There is no direct connection between the CPU and the lower portion of the motherboard, so if the PCI, USB, IDE or SATA Ports needed to communicate with the CPU,
+        the information has to go through the southbridge and the up to northbridge and then to the CPU.</string>
+    <!--TODO: PART 6-->
+    <string name="module_1_4_6_0_content">The main difference between northbridge and southbridge is that the northbridge is a chip in the chipset of a motherboard that directly
+        connects to the CPU while the southbridge is a chip in the chipset of a motherboard that does not directly connects to the CPU.
+        \n\nMoreover, northbridge operates faster than southbridge.</string>
+    <!--TODO: PART 7-->
+    <string name="module_1_4_7_0_content">Your Chipset Determines Which Parts Are Compatible
+        \n\nComponent choice is important. Will your new system be the latest generation Intel Core i7 processor, or are you willing to settle for something
+        a little older (and cheaper)? Do you want higher clocked DDR4 RAM, or is DDR3 okay?
+        How many hard drives are you connecting and what kind? Do you need Wi-Fi built-in, or will you be using Ethernet?
+        Will you be running multiple graphics cards, or a single graphics card with other expansion cards?
+        The mind boggles at all the potential considerations, and better chipsets will offer more (and newer) options.
+        \n\nPrice is going to be a big determining factor here, too. Needless to say, the bigger and badder the system,
+        the more it will cost—both in terms of the components themselves, and the motherboard that supports them.
+        If you\'re building a computer, you\'re probably going to lay out your needs based on what you want to put into it and your budget.</string>
+    <!--TODO: PART 8-->
+    <string name="module_1_4_8_0_content">Your Chipset Determines Your Expansion Options
+        \n\nChipset also dictates how much room for expansion cards (like video cards, TV tuners, RAID card, and so on) you have in your machine, thanks to the buses they use.
+        \n\nSystem components and peripherals—CPU, RAM, expansion cards, printers, etc.—connect to the motherboard via “buses”.
+        Every motherboard contains several different types of buses, which can vary in terms of speed and bandwidth, but for simplicity\'s sake,
+        we can break them down into two: external buses (including USB, serial, and parallel) and internal buses.
+        \n\nThe primary internal bus found on modern motherboards is known as PCI Express (PCIe). PCIe utilizes “lanes”, which allow internal components such as RAM and expansion cards to communicate with the CPU and vice versa.
+        \n\nA lane is simply two pairs of wired connections one pair sends data, the other receives data. So, a 1x PCIe lane will consist of four wires, 2x has eight, and so forth. The more wires, the more data can be exchanged.
+        A 1x connection can handle 250 MB in each direction, 2x can handle 512 MB, etc.\n\For Example: A Z170 motherboard, a PCI Express 16x graphics card will use up 16 lanes all by itself.
+        As a result, you use can two of these together on a Z170 board at full speed, leaving you with four lanes left over for additional components. Alternatively, you can run one PCI Express 3.0 card over 16 lanes (16x) and two cards over 8 lanes (8x), or four cards at 8x (if you buy a motherboard that can accommodate that many).</string>
+    <!--TODO: PART 9-->
+    <string name="module_1_4_9_0_content">Your Chipset Determines Your PC\'s Overclocking Ability
+        \n\nHere\'s the thing, though: only certain CPUs are ideal for overclocking (a good place to start is with Intel and AMD models with K in their names). Furthermore,
+        only certain chipsets may allow overclocking, and some may require special firmware to enable it. So if you want to overclock,
+        you\'ll need to take chipset into consideration as you shop for motherboards.
+        \n\nChipsets that allow overclocking will have the requisite controls (voltage, multiplier, base clock, etc.) in their UEFI or BIOS to increase a CPU\'s clock speed.
+        If the chipset doesn\'t handle overclocking, then those controls won\'t be there (or if they are, they\'ll be all but useless)
+        and you may have spent your hard-earned cash on a CPU that is basically locked at its advertised speed.
+        \n\nSo if overclocking is a serious consideration, then it pays to know ahead of time which chipsets are better suited for it right out of the box.
+        If you\'re in need of further direction, then there are a bevy of buyer\'s guides out there, which will tell you in no uncertain terms which Z170 motherboards or X99 motherboards
+        (or any other overclockable chipset) will work best for you.</string>
+
+
+    <!--TODO: LESSON 2-->
+    <!--TODO: MODULE 1-->
+    <!--TODO: PART 1-->
+    <string name="module_2_1_1_0_content">As discussed in lesson 1, A system unit is the part of a computer that houses the primary devices that perform operations and produce
+        results for complex calculations.</string>
+    <!--TODO: PART 2-->
+    <string name="module_2_1_2_0_content">You use the front of the system unit to interact with the computer system directly.
+        From the front of the console, you can add or remove disks from the DVD ROM, observe lights, punch buttons (mostly power button),
+        and plug USB cables and audio cables into your computer.</string>
+    <!--TODO: PART 3-->
+    <string name="module_2_1_3_0_content">The system unit\'s backside is its busy side. On the back of a system unit,
+        you find various connectors for the many other devices in your computer system: the console\'s back also has a place to plug in the monitor, keyboard, mouse,
+        speakers, and just about anything else that came in the box with the PC, see the picture below to fully understand it.</string>
+    <string name="module_2_1_3_1_content">\u2022 Power - This thing is where the PC plugs into a cord that plugs into the wall.
+        \n\n\u2022 Fan - Air gets sucked in here, blows around inside the console to keep things cool, and then puffs out the vents.
+        \n\n\u2022 Voltage switch - Some computer have this but some don\'t. It\'s purpose is to switch power frequencies to match the specifications for your country, region, or planet.
+        \n\n\u2022 Expansion slots - These slots are available for adding new components to the console and expanding your PC\'s hardware.
+        \n\n\u2022 I/O panel - Aside from the power cord, and anything attached to an expansion card, the rest of your PC\'s expansion options
+        and plug-in-type things are located in a central area that I call the I/O panel.</string>
+    <!--TODO: PART 4-->
+    <string name="module_2_1_4_0_content">Continuing the lesson earlier.
+        \n\nPower Input - It\'s where you plug in the PC\'s electrical power cord.</string>
+    <string name="module_2_1_4_1_content">Mouse and Keyboard Port - This dedicated port is just for the mouse and keyboard only.</string>
+    <string name="module_2_1_4_2_content">USB Ports – Universal serial bus (USB) ports are general-purpose connectors found on newer PCs. The more unusual the peripheral,
+        the more likely it will use USB port.</string>
+    <string name="module_2_1_4_3_content">Serial Ports – These 9-pin connectors is one of the oldest and most universal port found in the back of a PC.
+        Before the introduction of USB in the mid 1990s, serial ports where heavily used.</string>
+    <string name="module_2_1_4_4_content">Parallel Port – Virtually as old as the serial port, the 25–pin parallel port has been updated a number of times over the years.
+        Despite the growing prominence of USB, parallel ports remain a popular means for connecting printers.</string>
+    <string name="module_2_1_4_5_content">Video Port – This unique three-row, 15-pin connector is where the monitor connects to the system unit.</string>
+    <string name="module_2_1_4_6_content">Audio Ports – These are used to connect speakers, microphones, and other audio devices.</string>
+    <string name="module_2_1_4_7_content">Game Port – Also known as a joystick port, this 15-pin connector can be used both for joysticks and for MIDI musical devices</string>
+    <string name="module_2_1_4_8_content">Network Interface/LAN Port – The network interface is normally called just that, and not a port.
+        It is sometimes referred to as an Ethernet connector. It connects your PC to other PC\'s in a Local Area Network.</string>
+
+    <!--TODO: MODULE 2-->
+    <!--TODO: PART 1-->
+    <string name="module_2_2_1_0_content">As discussed in lesson 1,
+        a system unit is the part of a computer that houses the primary devices that perform operations and produce results for complex calculations.</string>
+    <string name="module_2_2_1_1_content">In this modern era, we all demand products and solutions which are easy to use, manage and maintain.
+        Computing has evolved to such an extent that we now have devices like desktop computers, laptops, and tablets at our disposal.
+        \n\nWhen the market for computers was relatively small, there were limited models. As the industry grew, it started supporting a wide variety of different configurations designed to fulfill specific requirements. Personal computers were highly sought after by businesses because of their ability to offer significant power and features.
+        However, as users began to handle more complex workloads, it became clear that the IT community needed better alternatives.</string>
+    <string name="module_2_2_1_2_content">\nSize:\n\nThe most obvious benefit of Mini PCs is their small size and portability.
+        They can be flexibly squeezed into small spaces to perform their functions. Ideally, select models with industry-standard VESA mounting brackets.
+        These offer a safe and convenient way to attach your devices to the back of TVs or display screens/monitors.
+        \n\nCompanies can also customize mini desktop computers to adapt to different situations.
+        They come in two flavors, namely barebones and ready-made systems. Barebones configurations typically only need some RAM and a hard drive.
+        On the other hand, ready-made devices are available in smartphone-sized pocket computers and even stick-style PCs.
+        Let\'s compare these models to traditional desktop computer case sizes.\n\nMost cases come in four distinct sizes: SFF, mini tower, mid tower, and full tower.</string>
+    <!--TODO: PART 2-->
+    <string name="module_2_2_2_0_content">VIA Technologies developed this 100mm x 72mm PC motherboard form factor for system developers requiring a compact, light, and quiet device capable of facilitating embedded, IoT, and M2M applications.
+        \n\nUsers can choose between ARM and x86-based platforms to deliver quality computing performance. The Pico-ITX also integrates versatile I/O and supports low energy consumption and fanless operation.</string>
+    <!--TODO: PART 3-->
+    <string name="module_2_2_3_0_content">Back then, your first candidate for a SFF computer would probably have been a mini tower which was introduced in 1997. With digital innovations and evolving workloads, the demand for less bulky systems grew, and the Mini-ITX was developed in 2001 to address these needs.
+        \n\nGoing forth, the Mini-ITX 2.0 was released in 2008 to provide even greater flexibility to a wide range of user requirements. It gave Mini-ITX motherboards a PCI Express x16 slot in place of a legacy PCI slot. This enabled IT to add quality graphics or expansion cards that worked on the PCI Express interface.
+        \n\nOverall, the Mini-ITX makes sense for workplaces with limited space or those that often move around IT equipment.</string>
+    <!--TODO: PART 4-->
+    <string name="module_2_2_4_0_content">This is one of the most affordable case sizes because of its simple design and need for fewer materials. Mini Towers support MicroATX motherboards which are among the most common form factors for budget boards.
+        \n\nA mini tower is neither too small or too big. It can be placed almost anywhere without taking up too much table space.</string>
+    <!--TODO: PART 5-->
+    <string name="module_2_2_5_0_content">At some point, mid towers were the standard size for both business and personal use cases. Most are capable of supporting two mid to high-end graphics cards for users running graphics-intensive applications.
+        \n\nTheir roomy interior not only facilitates improved air circulation. They are equipped with extra cable routing holes, drive bays, and side panel clearance for streamlined management.</string>
+    <!--TODO: PART 6-->
+    <string name="module_2_2_6_0_content">Full towers were popular among server administrators for the right reasons. Think about situations where admins needed to accommodate a second CPU and additional RAM slots. In these scenarios, mid towers cannot be utilized as they can only house a standard ATX motherboard. Furthermore, server motherboards can get extensive in such cases..
+        \n\nFull towers present a viable solution as they can hold larger EATX and SSI CEB server boards and are suitable for overclocking.\n\nThe obvious drawback is their size. A full tower takes up massive desk space and creates a crowded work environment.</string>
+
+
+    <!--TODO: LESSON 3-->
+    <!--TODO: MODULE 1-->
+    <!--TODO: PART 1-->
+    <string name="module_3_1_1_0_content">\u2022 Make sure all the needed tools are ready to use.
+        \n\u2022 Take off any metal objects on your arms or fingers such as bracelets, rings or watches. Even if your unit is unplugged, there may still be some remaining electric charge.
+        \n\u2022 Make sure your hands are completely dry to avoid damaging any mechanical parts as well as to avoid electrocution.
+        \n\u2022 Be careful with the tools that may cause short circuit.
+        \n\u2022 Use only rubber shoes when standing on the ground or in a concrete floor.
+        \n\u2022 Take away any liquid such as mineral water or soft drinks near your working area or near computers.
+        \n\u2022 Work in a cool area to avoid perspiration.
+        \n\u2022 But you can always use a hand towel to help you wipe your sweats but being in a cool area is recommended.
+        \n\u2022 Before touching any part within the tower, put your hands against another metal surface (such as the computer casing) to remove static charge, which may damage sensitive devices.
+        \n\u2022 Prepare a place to keep any screws you may remove. A container or piece of paper with labels for each part (casing, motherboard, CD drive, etc) is ideal to avoid confusion between the similar-looking screws.
+        \n\u2022 Prepare a wooden table or plastic to put all your parts/components. Never use a metal to place your components.</string>
+
+    <!--TODO: MODULE 2-->
+    <!--TODO: PART 1-->
+    <string name="module_3_2_1_0_content">\u2022 Make sure to wipe your sweats if you have any.
+        \n\u2022 Handle all parts with care. Place each piece you remove carefully down onto a stable surface.
+        \n\u2022 Hold the components by edges and do not touch the IC\'s.
+        \n\u2022 If a component does not come out easily, do not forcefully remove it. Instead, check that you are removing it correctly and that no wires or other parts are in the way.
+        \n\u2022 Be careful when holding the motherboard, it\'s underside actually quite pointy and able to hurt you.
+        \n\u2022 Never attempt to remove the power source, a box attached to the side or bottom of the unit to which all cables are connected.
+        \n\u2022 When removing any cables, wires or ribbons, make sure to grasp the wire at the base or head to keep it from breaking.
+        \n\u2022 Be careful not to drop any small parts (particularly screws) into unreachable areas such as into the computer fan or disk drive.
+        \n\u2022 Take note that the three of the most damaging things to a computer are moisture (sweat, drinking water), shock (electric or from being dropped) and dust (any debris from household dust to bits of food).</string>
+
+    <!--TODO: MODULE 3-->
+    <!--TODO: PART 1-->
+    <string name="module_3_3_1_0_content">\u2022 Make sure no parts are missing and make sure all of it are properly installed.
+        \n\u2022 Make sure all screws are properly installed at their places.
+        \n\u2022 Close the case of the computer.
+        \n\u2022 Return all your tools in proper place.
+        \n\u2022 Test if the PC is working.</string>
+
+
+    <!--TODO: LESSON 4-->
+    <!--TODO: MODULE 1-->
+    <!--TODO: PART 1-->
+    <string name="module_4_1_1_0_content">Heat is your computer\'s worst enemy. Over time, dust buildup inside your computer could undermine its cooling efficiency, resulting in shorter life spans for your computer\'s components. To help keep your computer running cool, clean the inside of your computer every 6 to 12 months.</string>
+    <!--TODO: PART 2-->
+    <string name="module_4_1_2_0_content">\u2022 Cloth\n
+        A cotton cloth is the best tool used when rubbing down computer components. Paper towels can be used with most hardware, but we always recommend using a cloth whenever possible. However, only use a cloth when cleaning components such as the case, a drive, mouse, and keyboard. You should not use a cloth to clean any circuitry such as the RAM or motherboard.</string>
+    <string name="module_4_1_2_1_content">\u2022 Water or Rubbing alcohol\n
+        When moistening a cloth, it is best to use water or rubbing alcohol. Other solvents may be bad for the plastics used with your computer.</string>
+    <string name="module_4_1_2_2_content">\u2022 Portable Vacuum\n
+        Sucking the dust, dirt, hair, cigarette particles, and other particles out of a computer can be one of the best methods of cleaning a computer. However, do not use a vacuum that plugs into the wall since it creates lots of static electricity that can damage your computer.</string>
+    <string name="module_4_1_2_3_content">\u2022 Cotton Swabs\n
+        Cotton swaps moistened with rubbing alcohol or water are excellent tools for wiping hard to reach areas in your keyboard, mouse, and other locations.</string>
+    <string name="module_4_1_2_4_content">\u2022 Foam Swabs\n
+        Whenever possible, it is better to use lint-free swabs such as foam swabs.</string>
+    <!--TODO: PART 3-->
+    <string name="module_4_1_3_0_content">\u2022 Step 1: \nTurn off your computer and unplug it from the electrical outlet or surge protector.
+        \n\u2022 Step 2: \nOpen up your computer\'s case."</string>
+    <string name="module_4_1_3_1_content">\u2022 Step 3: \nUsing compressed air, dust the internal components of your computer with short bursts of air. Try to remain at least a few inches away from the surface of the motherboard, memory, processor, and expansion cards.
+        \n\u2022 Step 4: \nRemove the dust buildup on your case fans with a can of compressed air. Hold the fan with your finger to keep it from spinning while you\'re blowing the compressed air onto it. Fan blades can be delicate and may crack if spun too quickly. You can use rubbing alcohol and wipe the blades with a cotton swab for the finishing touches.
+        If the fans are hard to reach or extremely dirty, feel free to remove them from the case for easier cleaning.</string>
+    <string name="module_4_1_3_2_content">\u2022 Step 5: \nRemove the dust buildup from the power supply using a can of compressed air. If your case has a dust filter underneath the power supply, be sure to clean the filter too.</string>
+    <string name="module_4_1_3_3_content">\u2022 Step 6: \nThe heat sink and fan that\'s mounted on your processor should be cleaned as well. Again, with a can of compressed air and using short bursts, blow the dust away from the heat sink and fan. If the buildup is too heavy, you may need to remove the heat sink and fan from the processor to get it thoroughly cleaned.
+        Just remember to clean the thermal grease off of the processor and the heat sink, then apply new thermal grease before reattaching the heat sink to the processor.</string>
+    <string name="module_4_1_3_4_content">\u2022 Step 7: \nTo remove the thermal grease, moisten a lint-free cloth with 99 percent isopropyl alcohol, then wipe away the thermal grease from the processor and the heat sink. Less concentrated alcohol will also work but may leave a residue that could reduce the efficiency of the thermal paste or grease.
+        \n\u2022 Step 8: \nFinally, dust off all the ports on the computer with compressed air and clean all the exterior vents with rubbing alcohol and a cotton swab.</string>
+
+
+    <!--TODO: MODULE 2-->
+    <!--TODO: PART 1-->
+    <string name="module_4_2_1_0_content">Memory problems are less common than other computer problems because memory sticks have no moving parts and thus fewer points of failure. However, due to this many RAM problems go undiagnosed. Memory usually will last longer than other computer components so manufacturers offer longer warranties for it than other parts. If you buy brand name memory it will likely have a lifetime warranty.</string>
+    <!--TODO: PART 2-->
+    <string name="module_4_2_2_0_content">\u2022 When you first turn on your computer it runs fine, but as you go about your business you notice that its performance diminishes. By lunch time, websites take minutes to load and local programs run at a snail\'s pace. This type of gradual deterioration of PC performance, especially with memory-intensive programs, may be caused by a RAM problem.
+        \n\n\u2022 Your computer randomly restarts while you are in the middle of something or freeze sporadically. It may also reboot almost immediately upon opening the desktop. This could be a sign of faulty RAM.
+        \n\n\u2022 A blue screen with white text flashes before restarting. Blue-screen errors are annoying because you don\'t even have a chance to read the error message. Bad RAM is one thing that cause them.
+        \n\n\u2022 Files—particularly ones you frequently access and save—seem to be inexplicably corrupted. RAM issues can lead to this problem, which can worsen over time. The file structure of your hard drive may slowly degenerate and you will no longer be able to boot your machine.
+        \n\n\u2022 Your attempts to install a new program repeatedly fail for unknown reasons. You try to reinstall the operating system, but keep getting odd error messages.
+        \n\nThere are certainly a variety of problems that could cause the issues above, but faulty RAM is an often-overlooked root cause of inexplicable issues. If you have one or a combination of the above problems you are likely facing a memory issue.</string>
+    <!--TODO: PART 3-->
+    <string name="module_4_2_3_0_content">\u2022 Power surges can damage most computer components, including RAM. You should plug your computer and other expensive electronics into a surge protector. Make sure you know the difference between a surge protector and a power strip.
+        \n\n\u2022 Before you handle any parts in your computer, make sure you ground yourself by touching a piece of grounded metal to discharge static electricity. Electrostatic discharge can damage your computer.
+        \n\n\u2022 Excessive heat can cause RAM and other parts to wear out over time. Individual components can overheat, or heat from one component can cause damage to adjacent parts.
+        \n\n\u2022 If you have overclocked any part of your computer incorrectly, it may cause damage in the form of excess heat.
+        \n\n\u2022 Your memory module may have some fault that passed through quality control and worsened over time. This is the most likely cause behind a damaged RAM.
+        \n\nThere are certainly a variety of problems that could cause the issues above, but faulty RAM is an often-overlooked root cause of inexplicable issues. If you have one or a combination of the above problems you are likely facing a memory issue.</string>
+    <!--TODO: PART 4-->
+    <string name="module_4_2_4_0_content">\u2022 Test each of your memory modules one at a time to find which ones are bad. When you find the sticks that are bad you can order replacements.
+        It is possible all the memory modules are damaged if your computer experienced a serious power surge.
+        \n\n\u2022 If all the memory modules appear bad, then the problem is likely with the memory slot itself.
+        Try testing each memory module in each of the memory slots to find if one of the slots is faulty. To fix a faulty slot you would need to replace your motherboard.
+        \n\n\u2022 When replacing a module, make sure the indention on the bottom is lined up correctly with the slot and then press it in until you hear the levers snap.
+        Note that some levers do not make a snapping sound.
+        \n\n\u2022 You can also try to clean your RAM, sometimes RAM can picked up dust unnoticed. See the next lesson to learn how to clean a RAM</string>
+    <!--TODO: PART 5-->
+    <string name="module_4_2_5_0_content">\u2022 Blow off any loose dust or debris from the RAM using canned air. Hold the module by its edges (lengthwise).</string>
+    <string name="module_4_2_5_1_content">\u2022 Clean the contacts using a cotton swab slightly moistened with rubbing alcohol. You can also use a soft cloth that does not leave fibers behind,
+        such as a lens cleaning cloth.</string>
+    <string name="module_4_2_5_2_content">\u2022 Set the RAM module aside and allow it to dry completely. Repeat Steps 5 -7 for any additional sticks you\'d like to clean.
+        \n\n\u2022 Blow out the empty RAM bay with canned air. While you\'re at it, you might also want to dust the entire case out at the same time.
+        \n\n\u2022 Replace the RAM sticks in their bays after you\'re sure they\'re dry. Make sure you line up the notches correctly.
+        Apply firm and even downward pressure to each side of the module until it snaps into place.</string>
+    <string name="module_4_2_5_3_content">Some sources advocate cleaning RAM contacts with a pencil eraser,
+        but the acids and chemicals in the eraser can damage the contacts, as can the shavings from the eraser.</string>
+
+    <!--TODO: MODULE 3-->
+    <!--TODO: PART 1-->
+    <string name="module_4_3_1_0_content">If your computer is behaving strangely or randomly crashing, it can be hard to nail down the culprit.
+        And as much as you don\'t want to believe it\'s the problem, testing your power supply should be part of your troubleshooting—it might be on the way out.</string>
+    <!--TODO: PART 2-->
+    <string name="module_4_3_2_0_content">There are a few telltale signs of a computer power supply that may be failing. Unfortunately, many of them are very general and could be a number of things.
+        \n\nTypical symptoms include:
+        \n\u2022 Random computer crashes.
+        \n\u2022 Random blue screen crashes.
+        \n\u2022 Extra noise coming from the PC case.
+        \n\u2022 Recurring failure of PC components.
+        \n\u2022 PC won\'t start but your case fans spin.</string>
+    <!--TODO: PART 3-->
+    <string name="module_4_3_3_0_content">Testing for a faulty power supply is a process of elimination.
+        The process isn\'t exhaustive, but should give you a good idea of whether your PSU is working properly or not.
+        \n\nIf you have performed software troubleshooting and think the issue may be hardware, follow these steps. Retest after each step.
+        \n\n1. Make sure any external switch on the rear of the power supply hasn\'t accidentally been turned off.
+        \n\n2. Check the power cable is secure in the wall socket and rear of the computer.
+        \n\n3. Try a different power cable and wall socket to make sure neither is dead.
+        \n\n4. Check all internal connections inside your PC, especially power connectors to peripherals.
+        \n\n5. Remove all peripherals and hardware from your computer except your boot drive and graphics card if you don\'t have onboard graphics.
+        If your CPU does have built-in graphics, remove the graphics card also.</string>
+    <!--TODO: PART 4-->
+    <string name="module_4_3_4_0_content">1. Unplug your existing PSU but don\'t remove it from the case.
+        \n\n2. Place the spare next to your PC and connect the motherboard, external GPU if you don\'t have onboard and your boot drive.
+        \n\n3. Plug the spare PSU into the wall and test.</string>
+    <string name="module_4_3_4_1_content">If your PC works normally, you have proven that it was the power supply and can change it.
+        If it isn\'t the power supply, you have only minimal rebuilding to do before you continue troubleshooting.</string>
+
+    <!--TODO: MODULE 4-->
+    <!--TODO: PART 1-->
+    <string name="module_4_4_1_0_content">From video games to professional 3D work, a graphics card is an essential piece of kit for those who want to push their
+        computers to the next level of graphics rendering. Unfortunately, as is usually the case with adding extra hardware to a computer,
+        graphics cards come with their own sets of problems and issues.
+        This makes it frustrating for users who aren\'t very experienced with graphics cards and how to diagnose errors.</string>
+    <!--TODO: PART 2-->
+    <string name="module_4_4_2_0_content">Computer Crash
+        \nGraphics cards that have gone rogue can cause a PC to crash. These crashes can be varied, from a simple bluescreen, to a “lockup” (where the PC freezes up but doesn\'t show a bluescreen),
+        to random restarts and powering off. Not every crash will be caused by the graphics card, but if you have memory dumps enabled and they blame the graphics card driver,
+        you can safely say it\'s the culprit.</string>
+    <string name="module_4_4_2_1_content">Artifacting
+        \nWhen something is going wrong with the graphics card, you may notice this via bizarre visuals onscreen.
+        This is because the graphics card is how the PC “draws” onto the monitor. Colours will look strange, 3D models will stretch for no reason, “digital snow” will appear,
+        or the entire screen will be covered in visual garbage.</string>
+    <string name="module_4_4_2_2_content">Loud Fan Sounds
+        \nWhen you boot up software that uses 3D graphics (or even when you boot up the computer!), you might hear what sounds like a small jet aircraft taking off within the PC.
+        This is the telltale sound of one of your system fans going into overtime. If this fan is the one on your graphics card, it might be a sign that something\'s not quite well with it.</string>
+    <string name="module_4_4_2_3_content">Driver Crashes
+        \nSometimes you\'ll be using your PC normally when the screen goes black for a few seconds. When it returns, you\'ll be informed that the video drivers have crashed and had to be restarted.
+        This won\'t crash your whole PC but can be very annoying if it happens frequently.
+        \n\n\nBlack Screens\nSometimes you won\'t see any visual clues at all! A graphics card gone bad can simply decide to stop working and not display anything.
+        You\'ll have to resort to integrated graphics or a cheap “throwaway” graphics card to see if it\'s your card or your monitor acting up.
+        If it works with either of those, it\'s most likely your graphics card at fault.</string>
+    <!--TODO: PART 3-->
+    <string name="module_4_4_3_0_content">Change the Drivers
+        \n\nGraphics card drivers can be fickle. If they\'re outdated, they can cause issues when playing more modern games.
+        If the graphics card is old, newer drivers can do more harm than good for system stability.
+        Sometimes you\'ll have a very recent graphics card and up-to-date drivers, and your computer will still crash regardless!
+        \n\nIf you haven\'t updated your graphics card drivers in a while, update them via NVIDIA, AMD, or Intel, depending on what make your card is.
+        Alternatively, if you have recently updated the drivers, try rolling back the driver to an earlier date or installing older drivers via your vendor\'s driver archive.</string>
+    <string name="module_4_4_3_1_content">Cool It Down
+        \n\nThere\'s a chance the graphics card is experiencing issues due to overheating. This will be especially relevant if the errors only happen after rendering 3D graphics for a while,
+        or if you notice your graphics card\'s fan getting extremely loud during rendering. If this is the case, try checking the temperature of your graphics card and see how hot it gets.
+        \n\nYou can combat overheating by removing the graphics card and cleaning any dust using compressed air.
+        You can even open the card itself up and refresh the thermal paste within, although this shouldn\'t be attempted by beginners. There are also tools to regulate the graphics card\'s fan and graphical output, such as MSI Afterburner.</string>
+    <string name="module_4_4_3_2_content">Make Sure It\'s Properly Seated
+        \n\nGraphics cards need to be properly seated in their PCi slots in order to work efficiently. If they require additional power plugs to operate, these need to be firmly plugged in without wiggle room. Failure to do either (or both!) may cause errors related to the graphics card. Ensure the card is properly slotted into the PCi and screwed in tight. Ensure any power connectors that are needed for operation are properly clipped into the unit.</string>
+    <string name="module_4_4_3_3_content">Check the Video Cable
+        \n\nIf the cable from your PC to your graphics card goes awry, it can create weird visual effects. If something visually strange happens, ensure the video cable is properly plugged in on both sides or replace the cable.</string>
+    <string name="module_4_4_3_4_content">Replace the Card
+        \n\nSometimes, however, the symptoms are simply a sign of a card past its prime. If you truly suspect that nothing can bring the card back from its current state, you can try purchasing a very cheap graphics card to see it if works on your PC. If the issues stop, consider buying a better new card!</string>
+
+    <!--TODO: MODULE 5-->
+    <!--TODO: PART 1-->
+    <string name="module_4_5_1_0_content">Many people usually blames bad motherboard if they experience problems with their computer. But how do you make certain it\'s a motherboard issue and not any other component? The thing is, there are other issues caused by a specific component that may be misconstrued as a motherboard failure.
+        To avoid misdiagnosing a problem, make sure that you read through this brief material.</string>
+    <!--TODO: PART 2-->
+    <string name="module_4_5_2_0_content">Physically Damaged Parts
+        \n\nThe first thing that you want to do, especially if you haven\'t opened a computer yet, is to physically check the motherboard.
+        This will allow you to examine if there is any bloated or damaged capacitor causing the issue like the ones identified in the figure below.
+        \n\nLeaking or bloated capacitors are usually products of overheating, material defect, or plain old aging.
+        If you can see a capacitor that\'s about to blow, you can assume that the reason for your motherboard problem.</string>
+    <string name="module_4_5_2_1_content">Look out for Unusual Burning Odor
+        \n\nAnother telltale sign of a motherboard problem is burning smell. Most of the time, a really strong burning smell is an indication that an overheated component.
+        Sometimes, plugging in an incompatible component can lead to overheating or failure so if you\'ve installed any component prior to noticing the problem,
+        make sure to remove it right away. You cannot just install a component to any motherboard so make sure that you consider checking compatibility first.
+        Plugging in an incompatible RAM or video card for example may lead to severe problems so as to damage the motherboard permanently.
+        \n\nRandom lock ups or Freezing Issues
+        \n\nIf you\'ve noticed that your computer has been freezing up lately, the first thing that you should do to troubleshoot it is to see if software is to blame. However,
+        if you\'ve already ruled out all software factors, the next good thing to do is to consider other hardware variables, including the possibility that the motherboard may be failing.
+        \n\nBlue Screen of Death
+        \n\nGetting a blue screen of death on your computer does not automatically means a motherboard issue. At lot of times, the main reason may be a bad driver or hardware failure.
+        If you can, take note of the error message, especially the error code which looks like this one (0x000000(0x000000,0x000000,0x000000,0x000000).
+        Once you have the code, use Google to research it to see if it says something about motherboard failure.
+        \n\nOther symptoms can also appear such as the ones below although there\'s a chance that a totally different malfunction may be causing them.
+        Below are the additional warning signs that you should watch out for:
+        \n\n\u2022 Some peripherals appear to stop working for a few seconds.
+        \n\u2022 Computer taking a long time to boot up.
+        \n\u2022 Motherboard does not do POST or Power On Self Test.</string>
+    <!--TODO: PART 3-->
+    <string name="module_4_5_3_0_content">There are usually two troubleshooting categories that a user or a technician can follow in order to troubleshoot a bad motherboard. The first one checks if the computer does POST and still boots, while the second checks if the system fails to do POST or no longer powers back on.
+        \n\nPOST is basically a diagnostic test run by your motherboard\'s BIOS to check if peripherals like hard drives, video card, RAM, keyboard, or mouse are all connected or not. If the essential peripherals are detected, BIOS then loads the operating system.
+        \n\n\n\nWhat to do if POST is successful and computer loads the operating system
+        \n\nIf the computer can load the operating system after POST, motherboard failure may not necessarily be the main reason for your problem. You need to rule out other potential hardware reasons first in order to determine if the motherboard is bad or not.</string>
+    <string name="module_4_5_3_1_content">Check the Hard Drive
+        \n\nA bad hard drive can sometimes be misinterpreted as a motherboard problem so you want to ensure that it\'s working.
+        If you are getting a blue screen of death symptom and it shows an error code, make sure that you do some research about it.
+        You also want to watch out for any noise coming from it, as that is one of the clearest indication of a problematic hard drive.
+        Sometimes, boot up can take significantly longer when the hard drive is not working properly. In general, the symptoms of a bad hard drive includes the following:
+        \n\u2022 Unusual sound
+        \n\u2022 Corrupted or lost files
+        \n\u2022 Random freezing or lock ups
+        \n\u2022 Near-constant crashes
+        \n\u2022 Bad sectors
+        \n\n\nCheck the PSU (Power Supply Unit)
+        \n\nOften the most underrated or even neglected component, the PSU is just as important as the motherboard itself.
+        And yet a lot of users don\'t usually pay much attention to it,even when their computer dies.
+        Basically, a PSU provides power to your computer and if it doesn\'t do its job well, or if it\'s out of specification, if may lead to permanent system damage.
+        If the load is too much for the PSU, the resulting insufficient power supply to the system can also result to severe damage to other components.
+        It is therefore a must that you use a good power supply. Consult your motherboard manual on how to check the voltage of the PSU using BIOS menu.
+        There are also software utilities provided by motherboard manufacturers that can do the job.
+        \n\n\nCheck the Central Processing Unit (CPU)
+        \n\nAs the heart of any computer system, a processor failure often results to an unstable system or total failure.
+        Thus, it is relatively easy to recognize a CPU issue because the entire system either works when it does, or doesn\'t turn on or becomes unstable if it doesn\'t.
+        \n\n\nCheck the Random Access Memory (RAM)
+        \n\nInstalling an out of spec RAM can cause instability problems, which can sometimes be misinterpreted as a motherboard issue as well.
+        Unreliable RAM can lead to a lot of problems such as infrequent crashes, corrupted data, freezing issues, etc.
+        If the problem occurred after you added a RAM chip, try to remove it from the system and reboot it.
+        You can also do a software check on your existing RAM by using free software such as Memtest86 or Memtest86+.
+        \n\n\nCheck the Graphics processing unit (GPU)
+        \n\nIf you\'ve seeing unnatural pixilation on the screen, or if artifacts appear from time to time, it\'s very likely that you have video problem.
+        All motherboards have built-in video capability but they are often not enough to play graphics intensive tasks.
+        Gamers usually add more powerful GPU to their computer to circumvent this limitation. If you installed one in your system, it\'s possible that the video card may be to blame.
+        Consider removing it from the motherboard to see how the system works without it.
+        \n\n\nCheck if BIOS firmware is updated
+        \n\nSometimes, updating the current BIOS version can fix motherboard ills. Consider checking your motherboard documentation to see how to update the BIOS.</string>
+    <!--TODO: PART 4-->
+    <string name="module_4_5_4_0_content">What to do if POST is NOT successful and computer does not boot at all
+        \n\nThis second category assumes that nothing happens at all when you press the power button on.
+        In most cases, the cause is more likely hardware in nature so there are important things that you must do to check.</string>
+    <string name="module_4_5_4_1_content">Check the Motherboard Physically
+        \n\nAs mentioned above, you want to ensure that everything is connected properly and that there are no leaking capacitors.
+        Depending on your motherboard type, an LED light may help indicate if a critical component like RAM, hard drive or CPU is working.
+        If everything appears to be working normally and there\'s no visible damage to all components,
+        the motherboard is most probably okay and there\'s another reason why your computer does not work turn on at all.
+        \n\n\n\nCheck the PSU (Power Supply Unit)
+        \n\nOften the most underrated or even neglected component, the PSU is just as important as the motherboard itself. And yet a lot of users don\'t usually pay much attention to it,
+        even when their computer dies. Basically, a PSU provides power to your computer and if it doesn\'t do its job well, or if it\'s out of specification, if may lead to permanent system damage.
+        If the load is too much for the PSU, the resulting insufficient power supply to the system can also result to severe damage to other components.
+        It is therefore a must that you use a good power supply. Consult your motherboard manual on how to check the voltage of the PSU using BIOS menu.
+        There are also software utilities provided by motherboard manufacturers that can do the job.
+        \n\n\n\nCheck the Central Processing Unit (CPU)
+        \n\nAs the heart of any computer system, a processor failure often results to an unstable system or total failure.
+        Thus, it is relatively easy to recognize a CPU issue because the entire system either works when it does, or doesn\'t turn on or becomes unstable if it doesn\'t.
+        \n\n\n\nCheck the Complementary Metal-Oxide Semiconductor or CMOS
+        \n\nCMOS is an on-board chip that stores information, usually BIOS settings a computer needs like date and time, system\'s boot sequence, among other else.
+        CMOS is powered by a battery that can run out of juice after some time. This Lithium-ion battery helps CMOS store the volatile information BIOS uses when your computer loads.
+        If this battery dies, your BIOS settings will revert back to their defaults once the computer restarts.
+        If you noticed that your computer\'s clock has changed without your knowledge, that may be an indication that the CMOS battery may have died.
+        Make sure to consult your motherboard\'s documentation if you want to check CMOS.
+        \n\n\n\nConsult a Professional
+        \n\nIf you\'ve already ruled out everything and it appears that motherboard failure is the main reason due to one of the reasons above,
+        we suggest that you allow a professional do the job for you. Try to avoid a motherboard repair, especially if you don\'t have a solid knowledge about electronics.
+        You may be able to identify a leaking capacitor but you will have to have a certain level of expertise and knowledge as well as the right set of tools to fix or replace it.</string>
+
+
+    <!--TODO: LESSON 5-->
+    <!--TODO: MODULE 1-->
+    <!--TODO: PART 1-->
+    <string name="module_5_1_1_0_content">Being a student, having a PC(Personal Computer) is so essential in today\'s world, here\'s an example of a Basic PC Set-Up.</string>
+    <string name="module_5_1_1_1_content">Here\'s the list that you will be needing:
+        \n\u2022 System Unit
+        \n\u2022 Monitor
+        \n\u2022 Mouse
+        \n\u2022 Keyboard
+        \n\u2022 Speaker/Headset
+        \n\nNote: The specification of your components will be based on what you can buy and need. (See next lesson to learn more about other PC Set-Ups)</string>
+
+    <!--TODO: MODULE 2-->
+    <!--TODO: PART 1-->
+    <string name="module_5_2_1_0_content">Gaming is one of the best entertainment that PC User\'s can appreciate more than anyone else.
+        Here\'s a list of specifications that can support any PC Games today:</string>
+    <string name="module_5_2_1_1_content">\u2022 CPU: AMD Ryzen 9 3900x
+        \n\u2022 CPU Cooler: Deepcool CAPTAIN 240EX RGB 153.04 CFM Liquid
+        \n\u2022 GPU: EVGA GeForce RTX 2080 8 GB XC ULTRA GAMING
+        \n\u2022 RAM: G.Skill Trident Z Neo 32GB (2x 16GB) DDR4-3600
+        \n\u2022 Storage: 2 x Samsung 860 Evo 1TB 2.5\', 1 x Samsung 860 Evo 250GB 2.5\' SSD, and Samsung 960 EVO 250GB M.2-2280 NVME SSD
+        \n\u2022 PSU: EVGA 650 W 80+ Gold Certified Semi-modular ATX
+        \n\u2022 Motherboard: Asus ROG Crosshair VII Hero ATX AM4
+        \n\u2022 Case: Fractal Design Define R6 Blackout ATX Mid Tower
+        \n\u2022 Monitor: 2 x LG 27UD58-B 27.0\' 3840x2160 60Hz
+        \n\u2022 Case Fan: 4x Fractal Design GP14-WT 68.4 CFM 140 mm
+        \n\n\n\nThe dual-monitor setup design here not only looks great but will really help to improve the viewing experience.
+        This is a high-end build and it has some serious computing power behind it thanks to the Ryzen 9 3900x CPU chip.
+        All this means that the builder gets to enjoy the 4K capabilities of the LG monitors to their fullest no matter the game.
+        \n\nOf course, you can create your own gaming PC just make sure the specifications match the requirements of the game you would like to play.</string>
+    <!--TODO: PART 2-->
+    <string name="module_5_2_2_0_content">Video Editing can be so complicated for you and also for the computer. Below are an example specification.</string>
+    <string name="module_5_2_2_1_content">\u2022 CPU: Dual Xeon 2GHz six-core
+        \n\u2022 CPU Cooler: CoolerMaster Hyper T4 (2)
+        \n\u2022 GPU: GIGABYTE GeForce GTX 760 4GB (2)
+        \n\u2022 RAM: Kingston 16GB DDR3 1600 ECC (2)
+        \n\u2022 Storage: Kingston SSDNow V300 120GB SSD, Seagate NAS HDD 2TB and Boot Drive; Kingston 240GB HyperX 3K SSD
+        \n\u2022 PSU: Thermaltake Toughpower 1200W
+        \n\u2022 Motherboard: Supermicro MBD-X9DA7-O
+        \n\u2022 Case: Habey RPC-800</string>
+    <!--TODO: PART 3-->
+    <string name="module_5_2_3_0_content">Audio production can be one of the more challenging purposes for building a PC.</string>
+    <string name="module_5_2_3_1_content">\u2022 CPU: AMD R5 2400G
+        \n\u2022 CPU Cooler: Stock
+        \n\u2022 GPU: Stock (Vega 11 iGPU)
+        \n\u2022 RAM: 16GB DDR4-2400 (2 X 8GB)
+        \n\u2022 Storage: 250GB M.2 SATA SSD and 2TB SATA HDD
+        \n\u2022 PSU:  SeaSonic Focus 450 Gold
+        \n\u2022 Motherboard: MSI B450-A PRO
+        \n\u2022 Case: DeepCool Tesseract</string>
+    <!--TODO: PART 4-->
+    <string name="module_5_2_4_0_content">Creating 3D Animation or Model can take up too much space in your RAM also you will be needing a higher GPU specs to make the PC operate to
+        it\'s full potential in 3D software.</string>
+    <string name="module_5_2_4_1_content">\u2022 CPU: AMD R3 3200G
+        \n\u2022 CPU Cooler: Stock
+        \n\u2022 GPU: RX 570
+        \n\u2022 RAM: 8GB Dual-channel DDR4
+        \n\u2022 Storage: 250GB M.2 SATA SSD and 2TB SATA HDD
+        \n\u2022 PSU: EVGA 450 B1
+        \n\u2022 Motherboard: ASUS Prime X570-P
+        \n\u2022 Case: Antec GX202</string>
+
+
+    <!--TODO: LESSON 6-->
+    <!--TODO: MODULE 1-->
+    <!--TODO: PART 1-->
+    <string name="module_6_1_1_0_content">For every job there is the right tool. Make sure that you are familiar with the correct use of each tool and that the correct tool is used for the current task.
+        Skilled use of tools and software makes the job less difficult and ensures that tasks are performed properly and safely.
+        \n\n A toolkit should contain all the tools necessary to complete hardware repairs. As you gain experience, you learn which tools to have available for different types of jobs.
+        Hardware tools are grouped into four categories:
+        \n\u2022 ESD tools
+        \n\u2022 Hand tools
+        \n\u2022 Cleaning tools</string>
+    <!--TODO: PART 2-->
+    <string name="module_6_1_2_0_content">There are two ESD tools: the antistatic wrist strap and the antistatic mat.
+        The antistatic wrist strap protects computer equipment when grounded to a computer chassis.
+        The antistatic mat protects computer equipment by preventing static electricity from accumulating on the hardware or on the technician.</string>
+    <!--TODO: PART 3-->
+    <string name="module_6_1_3_0_content">Most tools used in the computer assembly process are small hand tools.
+        They are available individually or as part of a computer repair toolkit.
+        Toolkits range widely in size, quality, and price. Some common hand tools and their uses are:
+        \n\n\u2022 Flat-head screwdriver - Used to tighten or loosen slotted screws.
+        \n\u2022 Phillips-head screwdriver - Used to tighten or loosen cross-headed screws.
+        \n\u2022 Torx screwdriver - Used to tighten or loosen screws that have a star-like depression on the top, a feature that is mainly found on laptops.
+        \n\u2022 Hex driver - Used to tighten or loosen nuts in the same way that a screwdriver tightens or loosens screws (sometimes called a nut driver).
+        \n\u2022 Needle-nose pliers - Used to hold small parts.
+        \n\u2022 Wire cutters - Used to strip and cut wires.
+        \n\u2022 Tweezers - Used to manipulate small parts.
+        \n\u2022 Part retriever - Used to retrieve parts from locations that are too small for your hand to fit.
+        \n\u2022 Flashlight - Used to light up areas that you cannot see well.
+        \n\u2022 Wire stripper - A wire stripper is used to remove the insulation from wire so that it can be twisted to other wires or crimped to connectors to make a cable.
+        \n\u2022 Crimper - Used to attach connectors to wires.
+        \n\u2022 Punch-down tool - Used to terminate wire into termination blocks. Some cable connectors must be connected to cables using a punch down tool.</string>
+    <!--TODO: PART 4-->
+    <string name="module_6_1_4_0_content">Having the appropriate cleaning tools is essential when maintaining and repairing computers.
+        Using the appropriate cleaning tools helps ensure that computer components are not damaged during cleaning.
+        Cleaning tools include the following:
+        \n\u2022 Soft cloth - Used to clean different computer components without scratching or leaving debris.
+        \n\u2022 Compressed air - Used to blow away dust and debris from different computer parts without touching the components.
+        \n\u2022 Cable ties - Used to bundle cables neatly inside and outside of a computer.
+        \n\u2022 Parts organizer - Used to hold screws, jumpers, fasteners, and other small parts and prevents them from getting mixed together.</string>
+
+    <!--TODO: MODULE 2-->
+    <!--TODO: PART 1-->
+    <string name="module_6_2_1_0_content">This lesson discuss the proper use of common tools used to protect, repair, and clean computers and peripherals.</string>
+    <!--TODO: PART 2-->
+    <string name="module_6_2_2_0_content">Safety in the workplace is everyone\'s responsibility. You are much less likely to injure yourself or damage components when using the proper tool for the job.
+        \n\nBefore cleaning or repairing equipment, make sure that your tools are in good condition. Clean, repair, or replace items that are not functioning adequately.
+        \n\nAn example of ESD is the small shock that you receive when you walk across a carpeted room and touch a doorknob.
+        Although the small shock is harmless to you, the same electrical charge passing from you to a computer can damage its components.
+        Self-grounding or wearing an antistatic wrist strap can prevent ESD damage to computer components.
+        \n\nThe purpose of self-grounding or wearing an antistatic wrist strap is to equalize the electrical charge between you and the equipment.
+        Self-grounding is done by touching a bare metal part of a computer case. The antistatic wrist strap is a conductor that connects your body to the equipment that you are working on.
+        When static electricity builds up in your body, the connection made by the wrist strap to the equipment, or ground, channels the electricity through the wire that connects the strap.</string>
+    <!--TODO: PART 3-->
+    <string name="module_6_2_3_0_content">The wrist strap has two parts and is easy to wear. Following is the proper procedure for using an antistatic wrist strap:
+        \n\n\u2022 Step 1 - Wrap the strap around your wrist and secure it using the snap or Velcro. The metal on the back of the wrist strap must remain in contact with your skin at all times.
+        \n\n\u2022 Step 2 - Snap the connector on the end of the wire to the wrist strap, and connect the other end either to the equipment or to the same grounding point that the antistatic mat is connected to.
+        The metal skeleton of the case is a good place to connect the wire.
+        When connecting the wire to equipment that you are working on, choose an unpainted metal surface. A painted surface does not conduct electricity as well as unpainted metal.</string>
+    <!--TODO: PART 4-->
+    <string name="module_6_2_4_0_content">A technician needs to be able to properly use each tool in the toolkit. This topic covers many of the various hand tools used when repairing computers.
+        \n\n\nScrews\nMatch each screw with the proper screwdriver. Place the tip of the screwdriver on the head of the screw.
+        Turn the screwdriver clockwise to tighten the screw and counterclockwise to loosen the screw. Screws can become stripped if you over-tighten them with a screwdriver.
+        A stripped screw, as shown below, may get stuck in the screw hole, or it may not tighten firmly. Discard stripped screws.</string>
+    <string name="module_6_2_4_1_content">Flat-Head Screwdriver
+        \nUse a flat-head screwdriver when you are working with a slotted screw. Do not use a flat-head screwdriver to remove a Phillips-head screw. Never use a screwdriver as a pry bar.
+        If you cannot remove a component, check to see if there is a clip or latch that is securing the component in place.
+        \n\n\nPhillips-Head Screwdriver
+        \nUse a Phillips-head screwdriver with crosshead screws. Do not use this type of screwdriver to puncture anything. This will damage the head of the screwdriver.
+        \n\n\nHex Driver
+        \nUse a hex driver, shown below, to loosen and tighten bolts that have a hexagonal (six-sided) head. Hex bolts should not be over-tightened because the threads of the bolts can be stripped.
+        Do not use a hex driver that is too large for the bolt that you are using.</string>
+    <!--TODO: PART 5-->
+    <string name="module_6_2_5_0_content">Keeping computers clean inside and out is a vital part of a maintenance program.
+        Dirt can cause problems with the physical operation of fans, buttons, and other mechanical components.
+        On electrical components, an excessive buildup of dust acts like an insulator and traps the heat.
+        This insulation impairs the ability of heat sinks and cooling fans to keep components cool, causing chips and circuits to overheat and fail.
+        \n\n\nComputer Cases and Monitors
+        \nClean computer cases and the outside of monitors with a mild cleaning solution on a damp,
+        lint-free cloth. Mix one drop of dishwashing liquid with 4 oz (118 ml) of water to create the cleaning solution.
+        If water drips inside the case, allow enough time for the liquid to dry before powering on the computer.
+        \n\n\nLCD Screens
+        \nDo not use ammoniated glass cleaners or any other solution on an LCD screen, unless the cleaner is specifically designed for the purpose. Harsh chemicals damage the coating on the screen.
+        There is no glass protecting these screens, so be gentle when cleaning them and do not press firmly on the screen.
+        \n\n\nCRT Screens
+        \nTo clean the screens of CRT monitors, dampen a soft, clean, lint-free cloth with distilled water and wipe the screen from top to bottom.
+        Then use a soft, dry cloth to wipe the screen and remove streaking.
+        \n\n\nComponents
+        \nClean dusty components with a can of compressed air. Compressed air does not cause electrostatic buildup on components.
+        Make sure that you are in a well-ventilated area before blowing the dust out of the computer. A best practice is to wear a dust mask to make sure that you do not breathe in the dust particles.
+        \n\nBlow out the dust using short bursts from the can. Never tip the can or use the can upside down. Do not allow the fan blades to spin from the force of the compressed air.
+        Hold the fan in place. Fan motors can be ruined from spinning when the motor is not turned on.
+        \n\n\nComponents Contacts
+        \nClean the contacts on components with isopropyl alcohol. Do not use rubbing alcohol. Rubbing alcohol contains impurities that can damage contacts.
+        Make sure that the contacts do not collect lint from the cloth or cotton swab. Before reinstallation, use compressed air to blow lint off the contacts.</string>
+
+
+    <!--TODO: LESSON 7-->
+    <!--TODO: MODULE 1-->
+    <!--TODO: PART 1-->
+    <string name="module_7_1_1_0_content">
+        This is an instruction about how to disassemble a PC. Most of the basic components are modular and easily removed.
+        However it is important that you be organized about it. This will help to keep you from losing parts, and also in making the reassembly easier.
+        You should plan to do this in a clean, uncluttered, uncarpeted room.
+    </string>
+    <string name="module_7_1_1_1_content">
+        Step 1\n\n
+        <b>UNPLUGGING</b>\n
+        Unplug every cable that is connected to the computer\n\n
+        <i>Wear a grounding strap or touch an unpainted metal part of the computer to discharge any static electricity.
+            If you walk across a carpet at any point, touch an unpainted metal part of the computer again to discharge the built up static electricity.</i>
+    </string>
+    <!--TODO: PART 2-->
+    <string name="module_7_1_2_0_content">
+        Step 2\n\n
+        <b>REMOVE THE CASING</b>\n
+        After you computer is unplugged move to a clean working space, preferably a table.\n
+        First off all, take the black casing off the PC by sliding it towards the front side.
+        Then place the case at the side as you don’t need it anymore
+    </string>
+    <string name="module_7_1_2_1_content">
+        Step 3\n\n
+        <b>REMOVE POWER SUPPLY AND CORDS</b>\n
+        The Power Supply is a large metal box like located in the top left corner or bottom left corner.\n
+        The power supply supplies power to every component in a computer, therefore it has the most wires out of every other component in the computer.
+        The first thing you do is unplug every wire coming from the power supply. The list below is every thing that you have to disconnect:
+        \n\t\u2022 Motherboard (4/8 pin and 24 pin)
+        \n\t\u2022 CD/DVD drive[s] power
+        \n\t\u2022 Internal hard drive power (HDD and SSD)
+        \n\t\u2022 Portable hard drive slot power
+        \n\t\u2022 SATA Cables (DVD drive and HDD/SSD)
+        \n
+        Once everything is unplugged, unscrew the screws holding the power supply in place, on the back of the computer. Next, push the power supply from the outside, then lift it out.
+    </string>
+    <!--TODO: PART 3-->
+    <string name="module_7_1_3_0_content">
+        Step 4\n\n
+        <b>REMOVE CD/DVD Drive</b>\n
+        This one of the easiest components to remove. Just push the grey metal and pull out the drive.
+        If you don\'t have a second drive, there should be a flat piece of metal covering the drive slot.
+    </string>
+    <string name="module_7_1_3_1_content">
+        Step 5\n\n
+        <b>REMOVE SYSTEM FAN</b>\n
+        Most computers have two fans: the system fan, the one blowing air into the computer, and the CPU fan, the one blowing air onto the CPU heat sink.
+        \nThe system fan is located at the back side of the computer, the side with all the component plugins.
+        \nFirst, unplug the fan from the motherboard. You can find the plug by following the wire from the fan.
+        \nIt should be labeled \'SYS_FAN1\'. Next, you will have to unscrew the fan from the outside.
+        \nYou should now be able to lift the fan out of the PC.
+    </string>
+    <!--TODO: PART 4-->
+    <string name="module_7_1_4_0_content">
+        Step 6\n\n
+        <b>REMOVE HARD DISK DRIVE</b>\n
+        Remove the metal casing on the top side of the PC.
+        \n\nRemove the hard drive and floppy disk combo from the computer. Then, remove each.\n\n
+        <i>Keep the screws/bolt aside in a bag so when you assembling it back, it will be easier.</i>
+    </string>
+    <string name="module_7_1_4_1_content">
+        Step 7\n\n
+        <b>REMOVE GPU</b>
+        First thing you need to do is find the screw that locks the GPU from the case and unscrew it.\n
+        If any, unplug power cables from GPU.\n
+        Find the little lever to unlock your GPU from your motherboard (usually around the end of your GPU on the bottom)\n
+        Pull on the graphics card until it comes out.
+    </string>
+    <!--TODO: PART 5-->
+    <string name="module_7_1_5_0_content">
+        Step 8\n\n
+        <b>REMOVE RAM</b>\n
+        To remove the RAM modules you will simply need to press down the tabs at either end of the slots the RAM modules fit into, though some motherboards will only have one tab on the DIMM slot, which is becoming more common.
+        Before you go pushing tabs its is advisable to either lay the system down so the top of the RAM module it pointing up or hold onto it with the other hand as often the RAM stick can launch itself out of the slot and obey the laws of gravity to plummet to a potentially damaging floor or bottom of a case.
+    </string>
+    <string name="module_7_1_5_1_content">
+        Step 9\n\n
+        <b>REMOVE CPU FAN</b>\n
+        The CPU fan is located right on top of the CPU heat sink, which is a large piece of metal with fins on the top.
+        The CPU fan plugs into the motherboard which is hard to access. But just follow the wires and you should easily find it.
+        s\n\nTo remove the fan from the heat sink, remove the four screws securing it in place.
+    </string>
+    <!--TODO: PART 6-->
+    <string name="module_7_1_6_0_content">
+        Step 10\n\n
+        <b>REMOVE CPU</b>\n
+        Remove the CPU by working the lever. Handle with care.
+    </string>
+    <string name="module_7_1_6_1_content">
+        Step 11\n\n
+        <b>REMOVE MOTHERBOARD</b>\n
+        The motherboard has seven screws holding it to the frame, which are indicated by large white circles around them. Remove those seven, then lift the motherboard out of the frame.
+    </string>
+    <!--TODO: PART 7-->
+    <string name="module_7_1_7_0_content">
+        <b>YOU\'RE NOW DONE DISASSEMBLING THE COMPUTER</b>\n
+        When you\'re done disassembling your pc, make sure all the components doesn\'t touch or is in a ground where it can damage it, make sure it\'s place where you can find it easily.
+    </string>
+
+
+    <!--TODO: LESSON 8-->
+    <!--TODO: PART 1-->
+    <string name="module_8_1_1_0_content">
+        Assembling PC\n\n
+        Now that you\'ve learned how to disassemble a PC now you\'ll need to learn how to assemble it back.
+        Most of the basic components are modular and easy to install. However it is important that you are organized about it.
+    </string>
+    <string name="module_8_1_1_1_content">
+        Step 1\n\n
+        <b>PREPARE THE CASE AND OTHER COMPONENTS</b>\n
+    </string>
+    <!--TODO: PART 2-->
+    <string name="module_8_1_2_0_content">
+        Step 2\n\n
+        <b>INSTALL THE MOTHERBOARD</b>\n
+        Lower the motherboard into the case and align with the I/O bezel. And after that Install the screws.
+        \n\n\nCaution: To prevent damage to the motherboard it must only contact the standoffs and screws. All of the standoffs and screws must be installed.
+    </string>
+    <string name="module_8_1_2_1_content">
+        Step 3\n\n
+        <b>INSTALL THE CPU</b>\n
+        Find the corner marking that designates pin 1 of the CPU as shown in the first picture above, n this AMD brand processor, the corner is marked with an arrow.
+        Consult the manufacturer\'s documentation for specific information about your processor.
+        \nLift the small metal rod next to the socket as shown in the second picture above. Find the corresponding marking on the CPU socket and insert the CPU so that the markings are lined up.
+        \n\nAfter that just push the rod down to lock the processor in place
+    </string>
+    <!--TODO: PART 3-->
+    <string name="module_8_1_3_0_content">
+        Step 4\n\n
+        <b>INSTALL THE CPU FAN</b>\n
+        First thing you need to do is apply a thermal paste in your. Apply a thin vertical stripe (1 to 2 mm in thickness) across two-thirds of the CPU as shown in the image above.
+        \n<i>Note: Applying too much thermal paste can also cause it to spill onto the motherboard, causing electrical damage if you are using a metal-based thermal compound.</i>\n
+        Begin CPU fan installation by making sure that all four push pins are facing the correct direction.
+        The grooves on the push pins should be facing the center of the CPU fan (see images below).\n
+        To install a CPU fan and heat sink, you will need to align the four push pins of the heat sink (circled in yellow above) with the four pin holes on the motherboard.\n
+        Once everything is aligned, place your thumbs on the two diagonally opposite push pins and press down on both pins at the same time until you hear a click sound.
+        Then put the screws if needed.\n
+        Now we are down to the final step of installing a CPU fan:
+        Plug the CPU fan power connector into the 4-pin CPU fan header on the motherboard. On most motherboards, this header will be located near the CPU socket.
+    </string>
+    <!--TODO: PART 4-->
+    <string name="module_8_1_4_0_content">
+        Step 5\n\n
+        <b>INSTALL THE RAM</b>\n
+        Set the RAM board in the socket. Check to see that the notch in the board is in the correct location. If it is not, turn it around 180 degree.
+        \n\nPress firmly on both ends of the board to set it into the socket. Make sure the tabs lock into place,
+        \n\nCaution: Pressing the boards in when the tab is not aligned could cause damage to the RAM boards as well as the motherboard.
+    </string>
+    <string name="module_8_1_4_1_content">
+        Step 6\n\n
+        <b>INSTALL THE VIDEOCARD</b>\n
+        Hover the new GPU over PCI-e slot.\n
+        Push down on the GPU to slide the connector into the slot.\n
+        Ensure the secure lock clicks into place.\n
+        Screw the rear bracket down to secure the card to the chassis.\n
+        Connect any required PSU cables.\n
+    </string>
+    <!--TODO: PART 5-->
+    <string name="module_8_1_5_0_content">
+        Step 7\n\n
+        <b>INSTALL THE DRIVES</b>\n
+        Slide the drive into place until the screw holes on the sides are lined up with the holes in the case. And after that install the screws.
+    </string>
+    <string name="module_8_1_5_1_content">
+        Step 8\n\n
+        <b>INSTAL THE PSU</b>\n
+        Align the mounting holes in the case and power supply. After that insert screws and tighten.
+    </string>
+    <!--TODO: PART 6-->
+    <string name="module_8_1_6_0_content">
+        Step 9\n\n
+        <b>CONNECT ALL THE CABLES</b>\n
+        Every device that has been installed needs power. The motherboard has two power connections, and there are two connectors specifically for SATA devices (drives).
+        The other connectors will run fans and other non-SATA devices.
+        \n\nData cables connect drives and front panel devices to the motherboard.
+        \n\nWarning: Incorrect connections can damage components and cause bodily injury.
+    </string>
+    <string name="module_8_1_6_1_content">
+        Step 10\n\n
+        <b>WRAP UP</b>
+        CONGRATULATIONS!.
+        \n\nNow that the components are completely installed, the last thing to do is to reinstall the side panels on the case
+    </string>
+</resources>
+

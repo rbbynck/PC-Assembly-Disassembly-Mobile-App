@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutError"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95000000"
+    android:forceDarkAllowed="false"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:text="Your Feedback"
+                    android:textColor="@color/black_primary"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageView
+                    android:foreground="@drawable/ripple_2"
+                    android:id="@+id/feedback_close"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/feedback_close" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/open_sans_regular"
+                android:gravity="center"
+                android:text="We would like your feedback to improve our application."
+                android:textColor="@color/black_primary"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="150dp"
+                android:paddingRight="150dp">
+
+                <ImageView
+                    android:id="@+id/feedback_rating_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:src="@drawable/feedback_star_unselected" />
+
+                <ImageView
+                    android:id="@+id/feedback_rating_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/feedback_star_unselected" />
+
+                <ImageView
+                    android:id="@+id/feedback_rating_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/feedback_star_unselected" />
+
+                <ImageView
+                    android:id="@+id/feedback_rating_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/feedback_star_unselected" />
+
+                <ImageView
+                    android:id="@+id/feedback_rating_5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/feedback_star_unselected" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/open_sans_regular"
+                android:text="Please select your feedback category:"
+                android:textColor="@color/black_primary"
+                android:textSize="13.5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/feedback_category_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:foreground="@drawable/ripple_1"
+                    android:background="@drawable/feedback_category_unselected">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/open_sans_regular"
+                        android:gravity="center"
+                        android:text="Suggestion"
+                        android:textColor="@color/black_primary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:foreground="@drawable/ripple_1"
+                    android:id="@+id/feedback_category_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/feedback_category_unselected">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/open_sans_regular"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:autoSizeTextType="uniform"
+                        android:text="Something is not quite right"
+                        android:textColor="@color/black_primary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/feedback_category_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:foreground="@drawable/ripple_1"
+                    android:background="@drawable/feedback_category_unselected">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/open_sans_regular"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Compliment"
+                        android:textColor="@color/black_primary" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:text="Describe your feedback:"
+                    android:textColor="@color/black_primary"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/feedback_textbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/feedback_textbox"
+                    android:gravity="top"
+                    android:textColor="@color/black_primary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="7">
+
+                <ImageView
+                    android:foreground="@drawable/ripple_2"
+                    android:id="@+id/feedback_send"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/feedback_send" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+</LinearLayout>

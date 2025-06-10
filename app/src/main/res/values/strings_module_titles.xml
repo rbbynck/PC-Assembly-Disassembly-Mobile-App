@@ -1,0 +1,39 @@
+<resources>
+    <!--TODO: LESSON MODULE TITLES-->
+    <!--TODO: LESSON 1-->
+    <string name="lesson_module_1_1">System Unit</string>
+    <string name="lesson_module_1_2">What is a Motherboard?</string>
+    <string name="lesson_module_1_3">Motherboard Form Factor</string>
+    <string name="lesson_module_1_4">Motherboard Chipset/Socket</string>
+    <string name="lesson_module_1_5">Quiz Module</string>
+    <!--TODO: LESSON 2-->
+    <string name="lesson_module_2_1">What is a System Unit?</string>
+    <string name="lesson_module_2_2">Computer Case Size</string>
+    <string name="lesson_module_2_3">Quiz Module</string>
+    <!--TODO: LESSON 3-->
+    <string name="lesson_module_3_1">Before Disassembling/Assembling</string>
+    <string name="lesson_module_3_2">During Disassembling/Assembling</string>
+    <string name="lesson_module_3_3">After Disassembling/Assembling</string>
+    <string name="lesson_module_3_4">Quiz Module</string>
+    <!--TODO: LESSON 4-->
+    <string name="lesson_module_4_1">Cleaning a Computer</string>
+    <string name="lesson_module_4_2">RAM Problems and Solutions</string>
+    <string name="lesson_module_4_3">Power Supply Unit</string>
+    <string name="lesson_module_4_4">Video Card Problems and Solutions</string>
+    <string name="lesson_module_4_5">Motherboard Problems and Solutions</string>
+    <string name="lesson_module_4_6">Quiz Module</string>
+    <!--TODO: LESSON 5-->
+    <string name="lesson_module_5_1">Basic PC Set-Up</string>
+    <string name="lesson_module_5_2">Other PC Set-Up</string>
+    <string name="lesson_module_5_3">Quiz Module</string>
+    <!--TODO: LESSON 6-->
+    <string name="lesson_module_6_1">Hardware Tools</string>
+    <string name="lesson_module_6_2">Demonstrate Proper Use Tool</string>
+    <string name="lesson_module_6_3">Quiz Module</string>
+    <!--TODO: LESSON 7-->
+    <string name="lesson_module_7_1">Disassembling a Computer</string>
+    <string name="lesson_module_7_2">Quiz Module</string>
+    <!--TODO: LESSON 8-->
+    <string name="lesson_module_8_1">Assembling a Computer</string>
+    <string name="lesson_module_8_2">Quiz Module</string>
+</resources>

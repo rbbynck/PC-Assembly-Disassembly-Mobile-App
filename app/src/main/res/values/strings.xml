@@ -1,0 +1,475 @@
+<resources>
+    <string name="app_name">PC Assembly and Disassembly Mobile App</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: MODULE 3 LESSON 1-->
+    <!--QUESTION-->
+    <string name="quiz1_1_3">1.	The vast majority of today’s consumer motherboards come in one of three sizes: ATX, Micro-ATX and ______.</string>
+    <string name="quiz2_1_3">2.	When was the ATX (Advanced Technology eXtended) motherboard and power supply configuration specification developed by Intel?</string>
+    <string name="quiz3_1_3">3.	______ is a standard for motherboards that was introduced in December 1997.</string>
+    <!--ANSWER-->
+    <string name="quiz1_1_3option1">Mini-ITY</string>
+    <string name="quiz1_1_3option2">Mini-ITX</string>
+    <string name="quiz1_1_3option3">Mini-ITL</string>
+    <string name="quiz2_1_3option1">1995</string>
+    <string name="quiz2_1_3option2">1993</string>
+    <string name="quiz2_1_3option3">1991</string>
+    <string name="quiz3_1_3option1">microATX</string>
+    <string name="quiz3_1_3option2">microAT</string>
+    <string name="quiz3_1_3option3">microAX</string>
+
+
+    <!-- TODO: MODULE 4 LESSON 1-->
+    <!--QUESTION-->
+    <string name="quiz1_1_4">1. What is the main and most important components you will find on the motherboard?</string>
+    <string name="quiz2_1_4">2. A chipset is a smaller set of chips that has replaced a larger amount of chips.</string>
+    <string name="quiz3_1_4">3. The _______ chip was known because it was located at the top portion of the motherboard. The chip was directly connected to the CPU and acted as a communication middleman for systems.</string>
+    <!--ANSWER-->
+    <string name="quiz1_1_4option1">Conventional PCI</string>
+    <string name="quiz1_1_4option2">RAM</string>
+    <string name="quiz1_1_4option3">Chipset/Socket</string>
+    <string name="quiz2_1_4option1">True</string>
+    <string name="quiz2_1_4option2">False</string>
+    <string name="quiz3_1_4option1">Southbridge Chipset</string>
+    <string name="quiz3_1_4option2">Northbridge Chipset</string>
+    <string name="quiz3_1_4option3">Westbridge Chipset</string>
+
+
+    <!-- TODO: MODULE 5 LESSON 1-->
+    <!--QUESTION-->
+    <string name="quiz1_1_5">1. The availability of 16GB Modules means you can install 32 GB of RAM even the tiny Mini-ITX board. </string>
+    <string name="quiz2_1_5">2. One thing to know about USB port is that color is consistent. </string>
+    <string name="quiz3_1_5">3. Mini-ITX motherboards are usually limited to ______ RAM slots due to board space constraints. </string>
+    <string name="quiz4_1_5">4. Most modern ATX motherboards have a maximum of _____ PCI or PCI-Express expansion slots.</string>
+    <string name="quiz5_1_5">5. Who developed the Mini-ITX with 17 x 17 cm (6.7 x 6.7 in) motherboard in 2001?</string>
+    <string name="quiz6_1_5">6. Among the choices below who has the largest format of the bunch, measuring of 305x244 mm?</string>
+    <string name="quiz7_1_5">7. What is the advantage of having an EATX motherboard?</string>
+    <string name="quiz8_1_5">8. The _______ typically implements the slower capabilities of the motherboard in a chipset computer architecture.</string>
+    <string name="quiz9_1_5">9. Through the use of chipset integrated channel circuitry, the Northbridge can directly link signals from I/O units to the CPU for data control and access. </string>
+    <string name="quiz10_1_5">10. A _____ is simply two pairs of wired connections one pair sends data, the other receives data.</string>
+    <!--ANSWER-->
+    <string name="quiz1_1_5option1">True</string>
+    <string name="quiz1_1_5option2">False</string>
+    <string name="quiz2_1_5option1">True</string>
+    <string name="quiz2_1_5option2">False</string>
+    <string name="quiz3_1_5option1">1</string>
+    <string name="quiz3_1_5option2">3</string>
+    <string name="quiz3_1_5option3">2</string>
+    <string name="quiz4_1_5option1">7</string>
+    <string name="quiz4_1_5option2">6</string>
+    <string name="quiz4_1_5option3">2</string>
+    <string name="quiz5_1_5option1">IBM</string>
+    <string name="quiz5_1_5option2">VIA Technologies</string>
+    <string name="quiz5_1_5option3">Foxconn Technology Group</string>
+    <string name="quiz6_1_5option1">MINI ATX</string>
+    <string name="quiz6_1_5option2">Micro ATX</string>
+    <string name="quiz6_1_5option3">ATX</string>
+    <string name="quiz7_1_5option1">Triple socket support</string>
+    <string name="quiz7_1_5option2">Dual socket support</string>
+    <string name="quiz7_1_5option3">Single socket support</string>
+    <string name="quiz8_1_5option1">Southbridge Chipset</string>
+    <string name="quiz8_1_5option2">Northbridge Chipset</string>
+    <string name="quiz8_1_5option3">Westbridge  Chipset</string>
+    <string name="quiz9_1_5option1">True</string>
+    <string name="quiz9_1_5option2">False</string>
+    <string name="quiz10_1_5option1">PCI</string>
+    <string name="quiz10_1_5option2">Chipset</string>
+    <string name="quiz10_1_5option3">Lane</string>
+
+    <!-- TODO: MODULE 1 LESSON 2-->
+    <!--QUESTION-->
+    <string name="quiz1_2_1">1. In what part of the system unit you can find various connectors for the many other devices in your computer system?</string>
+    <string name="quiz2_2_1">2. This thing is where the PC plugs into a cord that plugs into the wall.</string>
+    <string name="quiz3_2_1">3. Air gets sucked in here, blows around inside the console to keep things cool and then puffs out the vents.</string>
+    <!--ANSWER-->
+    <string name="quiz1_2_1option1">Backside</string>
+    <string name="quiz1_2_1option2">Front side</string>
+    <string name="quiz1_2_1option3">None of the choices</string>
+    <string name="quiz2_2_1option1">Fan</string>
+    <string name="quiz2_2_1option2">Power</string>
+    <string name="quiz2_2_1option3">Voltage Switch</string>
+    <string name="quiz3_2_1option1">Fan</string>
+    <string name="quiz3_2_1option2">Power</string>
+    <string name="quiz3_2_1option3">I/O Panel</string>
+
+
+    <!-- TODO: MODULE 2 LESSON 2-->
+    <!--QUESTION-->
+    <string name="quiz1_2_2">1. _______ were highly sought after by businesses because of their ability to offer significant power and features.</string>
+    <string name="quiz2_2_2">2. The _____ also integrates versatile I/O and supports low energy consumption and finless operations.</string>
+    <string name="quiz3_2_2">3. This case was released in 2008 to provide even greater flexibility to a wide range of user requirements?</string>
+    <!--ANSWER-->
+    <string name="quiz1_2_2option1">Personal Computer</string>
+    <string name="quiz1_2_2option2">Cellphone</string>
+    <string name="quiz1_2_2option3">Tablet</string>
+    <string name="quiz2_2_2option1">Mini-ITX</string>
+    <string name="quiz2_2_2option2">Pico-ITX</string>
+    <string name="quiz2_2_2option3">Micro-ITX</string>
+    <string name="quiz3_2_2option1">Mini-ITX 2.0</string>
+    <string name="quiz3_2_2option2">Pico-ITX 2.0</string>
+    <string name="quiz3_2_2option3">Micro-ITX 2.0</string>
+
+
+    <!-- TODO: MODULE 3 LESSON 2-->
+    <!--QUESTION-->
+    <string name="quiz1_2_3">1. These slots are available for adding new components to the console and expanding your PC’s hardware.</string>
+    <string name="quiz2_2_3">2. It’s where you plug in the PC’s electrical power cord?</string>
+    <string name="quiz3_2_3">3. These 9-pin connector is one of the oldest and most universal port found in the back of a PC?</string>
+    <string name="quiz4_2_3">4. This unique three-row, 15-pin connector is where the monitor connects to the system unit?</string>
+    <string name="quiz5_2_3">5. Also known as a joystick port, this 15-pin connector can be used for both joysticks and for MIDI musical devices?</string>
+    <string name="quiz6_2_3">6. It is sometimes referred to as an internet connector?</string>
+    <string name="quiz7_2_3">7. This is one of the most affordable case sizes because of its simple design and need for fewer materials?</string>
+    <string name="quiz8_2_3">8. It represents a viable solution as they can hold larger EATX and SSI CEB server boards and are suitable for overclocking?</string>
+    <string name="quiz9_2_3">9. Also known as a joystick port, this 15-pin connector can be used for both joysticks and for MIDI musical devices?</string>
+    <string name="quiz10_2_3">10. The _____ also integrates versatile I/O and supports low energy consumption and finless operations.</string>
+    <!--ANSWER-->
+    <string name="quiz1_2_3option1">RAM Slots</string>
+    <string name="quiz1_2_3option2">Voltage Switch</string>
+    <string name="quiz1_2_3option3">Expansion Slots</string>
+    <string name="quiz2_2_3option1">Power input</string>
+    <string name="quiz2_2_3option2">Voltage Switch</string>
+    <string name="quiz2_2_3option3">Expansion slots</string>
+    <string name="quiz3_2_3option1">Serial Port</string>
+    <string name="quiz3_2_3option2">Parallel Port</string>
+    <string name="quiz3_2_3option3">Video Port</string>
+    <string name="quiz4_2_3option1">Serial Port</string>
+    <string name="quiz4_2_3option2">Parallel Port </string>
+    <string name="quiz4_2_3option3">Video Port</string>
+    <string name="quiz5_2_3option1">Serial Port</string>
+    <string name="quiz5_2_3option2">Game Port</string>
+    <string name="quiz5_2_3option3">Video Port</string>
+    <string name="quiz6_2_3option1">LAN Port</string>
+    <string name="quiz6_2_3option2">Serial Port</string>
+    <string name="quiz6_2_3option3">Game Port</string>
+    <string name="quiz7_2_3option1">Pico-ITX</string>
+    <string name="quiz7_2_3option2">Micro-ITX</string>
+    <string name="quiz7_2_3option3">Mini-ITX</string>
+    <string name="quiz8_2_3option1">Pico-ITX</string>
+    <string name="quiz8_2_3option2">Micro-ITX</string>
+    <string name="quiz8_2_3option3">EATX</string>
+    <string name="quiz9_2_3option1">Serial Port</string>
+    <string name="quiz9_2_3option2">Game Port </string>
+    <string name="quiz9_2_3option3">Video Port </string>
+    <string name="quiz10_2_3option1">Mini-ITX</string>
+    <string name="quiz10_2_3option2">Pico-ITX</string>
+    <string name="quiz10_2_3option3">Micro-ITX</string>
+
+
+    <!-- TODO: MODULE 1 LESSON 3-->
+    <!--QUESTION-->
+    <string name="quiz1_3_1">1. Make sure your hands are not dry to avoid damaging any mechanical parts as well to avoid electrocution.</string>
+    <string name="quiz2_3_1">2. Use only rubber shoes when standing on the ground or in a concrete floor.</string>
+    <string name="quiz3_3_1">3. Prepare a wooden table or plastic to put all your parts/Components.</string>
+    <!--ANSWER-->
+    <string name="quiz1_3_1option1">True</string>
+    <string name="quiz1_3_1option2">False</string>
+    <string name="quiz2_3_1option1">True</string>
+    <string name="quiz2_3_1option2">False</string>
+    <string name="quiz3_3_1option1">True</string>
+    <string name="quiz3_3_1option2">False</string>
+
+
+    <!-- TODO: MODULE 2 LESSON 3-->
+    <!--QUESTION-->
+    <string name="quiz1_3_2">1. Hold the components by edges and touch the IC’s</string>
+    <string name="quiz2_3_2">2. If component does not come out easily, forcefully remove it.</string>
+    <string name="quiz3_3_2">3. The three of the most damaging things to a computer are moisture, shock and dust.</string>
+    <!--ANSWER-->
+    <string name="quiz1_3_2option1">True</string>
+    <string name="quiz1_3_2option2">False</string>
+    <string name="quiz2_3_2option1">True</string>
+    <string name="quiz2_3_2option2">False</string>
+    <string name="quiz3_3_2option1">True</string>
+    <string name="quiz3_3_2option2">False</string>
+
+
+    <!-- TODO: MODULE 3 LESSON 3-->
+    <!--QUESTION-->
+    <string name="quiz1_3_3">1. Make sure no parts are missing and make sure all of it is properly installed.</string>
+    <string name="quiz2_3_3">2. Make sure all screws are properly installed at their places.</string>
+    <string name="quiz3_3_3">3. Return all your tools in proper place.</string>
+    <!--ANSWER-->
+    <string name="quiz1_3_3option1">True</string>
+    <string name="quiz1_3_3option2">False</string>
+    <string name="quiz2_3_3option1">True</string>
+    <string name="quiz2_3_3option2">False</string>
+    <string name="quiz3_3_3option1">True</string>
+    <string name="quiz3_3_3option2">False</string>
+
+
+    <!-- TODO: MODULE 4 LESSON 3-->
+    <!--QUESTION-->
+    <string name="quiz1_3_4">1. Work in a cool area to avoid perspiration.</string>
+    <string name="quiz2_3_4">2. Use metal to place your components.</string>
+    <string name="quiz3_3_4">3. When removing any cables, wires or ribbons, make sure to grasp the wire at the base or head to keep it from breaking.</string>
+    <string name="quiz4_3_4">4.	Make sure your hands are not dry to avoid damaging any mechanical parts as well to avoid electrocution.</string>
+    <string name="quiz5_3_4">5. Use only rubber shoes when standing on the ground or in a concrete floor.</string>
+    <string name="quiz6_3_4">6. Prepare a wooden table or plastic to put all your parts/Components.</string>
+    <string name="quiz7_3_4">7. Hold the components by edges and touch the IC’s</string>
+    <string name="quiz8_3_4">8. If component does not come out easily, forcefully remove it.</string>
+    <string name="quiz9_3_4">9. The three of the most damaging things to a computer are moisture, shock and dust.</string>
+    <string name="quiz10_3_4">10. Make sure no parts are missing and make sure all of it are properly installed.</string>
+    <!--ANSWER-->
+    <string name="quiz1_3_4option1">True</string>
+    <string name="quiz1_3_4option2">False</string>
+    <string name="quiz2_3_4option1">True</string>
+    <string name="quiz2_3_4option2">False</string>
+    <string name="quiz3_3_4option1">True</string>
+    <string name="quiz3_3_4option2">False</string>
+    <string name="quiz4_3_4option1">True</string>
+    <string name="quiz4_3_4option2">False</string>
+    <string name="quiz5_3_4option1">True</string>
+    <string name="quiz5_3_4option2">False</string>
+    <string name="quiz6_3_4option1">True</string>
+    <string name="quiz6_3_4option2">False</string>
+    <string name="quiz7_3_4option1">True</string>
+    <string name="quiz7_3_4option2">False</string>
+    <string name="quiz8_3_4option1">True</string>
+    <string name="quiz8_3_4option2">False</string>
+    <string name="quiz9_3_4option1">True</string>
+    <string name="quiz9_3_4option2">False</string>
+    <string name="quiz10_3_4option1">True</string>
+    <string name="quiz10_3_4option2">False</string>
+
+
+    <!-- TODO: MODULE 1 LESSON 4-->
+    <!--QUESTION-->
+    <string name="quiz1_4_1">1. ____ is your computer’s worst enemy.</string>
+    <string name="quiz2_4_1">2. ____ is the best tool used when rubbing down computer components.</string>
+    <string name="quiz3_4_1">3. Do not use vacuum that plugs into the walls since it creates lots of _________ that can damage your computer?</string>
+    <!--ANSWER-->
+    <string name="quiz1_4_1option1">Heat</string>
+    <string name="quiz1_4_1option2">Weather</string>
+    <string name="quiz1_4_1option3">Dust</string>
+    <string name="quiz2_4_1option1">Brush</string>
+    <string name="quiz2_4_1option2">Cloth</string>
+    <string name="quiz2_4_1option3">Rubbing Alcohol</string>
+    <string name="quiz3_4_1option1">Mechanical Electricity</string>
+    <string name="quiz3_4_1option2">Current Electricity</string>
+    <string name="quiz3_4_1option3">Static Electricity</string>
+
+
+    <!-- TODO: MODULE 2 LESSON 4-->
+    <!--QUESTION-->
+    <string name="quiz1_4_2">1. In the choices below select the answer that describes the symptoms of a RAM Problem.</string>
+    <string name="quiz2_4_2">2. ______ errors are annoying because you don’t even have a chance to read the error message.</string>
+    <string name="quiz3_4_2">3. If all the memory modules appear bad, then the problem is likely with the memory slot itself.</string>
+    <!--ANSWER-->
+    <string name="quiz1_4_2option1">Blow off any loose dust or debris from the RAM using canned air.</string>
+    <string name="quiz1_4_2option2">Blow out the empty RAM bay with canned air.</string>
+    <string name="quiz1_4_2option3">Files particularly once you frequently access and save seem to be inexplicably corrupted.</string>
+    <string name="quiz2_4_2option1">Blue Screen</string>
+    <string name="quiz2_4_2option2">White Screen</string>
+    <string name="quiz2_4_2option3">Gray Screen</string>
+    <string name="quiz3_4_2option1">True</string>
+    <string name="quiz3_4_2option2">False</string>
+
+
+    <!-- TODO: MODULE 3 LESSON 4-->
+    <!--QUESTION-->
+    <string name="quiz1_4_3">1. In the choices below it shows the typical symptoms of failing PSU except one.</string>
+    <string name="quiz2_4_3">2. In the choices below it shows SWAP Testing except one. </string>
+    <string name="quiz3_4_3">3. In the choices below it doesn’t show typical symptoms of a failing PSU except one.</string>
+    <!--ANSWER-->
+    <string name="quiz1_4_3option1">Random Computer crashes</string>
+    <string name="quiz1_4_3option2">PC won’t start but your case fans spin.</string>
+    <string name="quiz1_4_3option3">A blue screen with white text flashes before restarting.</string>
+    <string name="quiz2_4_3option1">Try a different power cable and wall socket to make sure neither is dead.</string>
+    <string name="quiz2_4_3option2">Place the spare next to your PC and connect the motherboard, external GPU.</string>
+    <string name="quiz2_4_3option3">Plug the spare PSU into the wall and test.</string>
+    <string name="quiz3_4_3option1">Hearing beeping sound from the PC.</string>
+    <string name="quiz3_4_3option2">Green Screen appearing.</string>
+    <string name="quiz3_4_3option3">Extra noise coming from the PC case.</string>
+
+
+    <!-- TODO: MODULE 4 LESSON 4-->
+    <!--QUESTION-->
+    <string name="quiz1_4_4">1. From video games to professional 3D work, a ______ is an essential piece of kit for those who want to push their computers to the next level of graphics rendering.</string>
+    <string name="quiz2_4_4">2. In this case you won’t see any visual clues at all. A graphics card gone badly can simply decide to stop working and not display anything.</string>
+    <string name="quiz3_4_4">3. What is the best thing to do when your graphics card is experiencing issues due to overheating?</string>
+    <!--ANSWER-->
+    <string name="quiz1_4_4option1">Graphics Card</string>
+    <string name="quiz1_4_4option2">Interface Card</string>
+    <string name="quiz1_4_4option3">Sound Card</string>
+    <string name="quiz2_4_4option1">Blue Screens</string>
+    <string name="quiz2_4_4option2">White Screens</string>
+    <string name="quiz2_4_4option3">Black Screens</string>
+    <string name="quiz3_4_4option1">Continue what you are doing.</string>
+    <string name="quiz3_4_4option2">Cool it down. </string>
+    <string name="quiz3_4_4option3">Turn off your monitor.</string>
+
+
+    <!-- TODO: MODULE 5 LESSON 4-->
+    <!--QUESTION-->
+    <string name="quiz1_4_5">1. Getting a ____________ on your computer does not automatically means a motherboard issue. A lot of times the main reason may be a bad driver o hardware failure.</string>
+    <string name="quiz2_4_5">2. _______ is basically diagnostic test run by your motherboard’s BIOS to check if peripherals like hard drives, video card, RAM or keyboard, or mouse are all connected or not.</string>
+    <string name="quiz3_4_5">3. Below are the general symptoms of bad hard drive except one.</string>
+    <!--ANSWER-->
+    <string name="quiz1_4_5option1">Random Lock ups or Freezing Issues</string>
+    <string name="quiz1_4_5option2">Blue Screen of Death</string>
+    <string name="quiz1_4_5option3">Unusual Burning Odor</string>
+    <string name="quiz2_4_5option1">Restarting</string>
+    <string name="quiz2_4_5option2">POST</string>
+    <string name="quiz2_4_5option3">Shutting down</string>
+    <string name="quiz3_4_5option1">Unusual Sound</string>
+    <string name="quiz3_4_5option2">Random freezing or lock ups</string>
+    <string name="quiz3_4_5option3">White text flashes before restarting.</string>
+
+
+    <!-- TODO: MODULE 6 LESSON 4-->
+    <!--QUESTION-->
+    <string name="quiz1_4_6">1. Identify if what step is this in cleaning inside your computer. Open up your Computer’s case.</string>
+    <string name="quiz2_4_6">2. Identify if what step is this in cleaning inside your computer. Turn off your computer and unplug it from electrical outlet or surge protector.</string>
+    <string name="quiz3_4_6">3.	____ is the best tool used when rubbing down computer components.</string>
+    <string name="quiz4_4_6">4. Do not use vacuum that plugs into the walls since it creates lots of _________ that can damage your computer?</string>
+    <string name="quiz5_4_6">5. In the choices below select the answer that describes the symptoms of a RAM Problem.</string>
+    <string name="quiz6_4_6">6. ______ errors are annoying because you don’t even have a chance to read the error message.</string>
+    <string name="quiz7_4_6">7. In the choices below it shows SWAP Testing except one. </string>
+    <string name="quiz8_4_6">8. In the choices below it doesn’t show a typical symptoms of a failing PSU except one.</string>
+    <string name="quiz9_4_6">9. From video games to professional 3D work, a ______ is an essential piece of kit for those who want to push their computers to the next level of graphics rendering.</string>
+    <string name="quiz10_4_6">10. What is the best thing to do when your graphics card is experiencing issues due to overheating?</string>
+    <!--ANSWER-->
+    <string name="quiz1_4_6option1">Step 1</string>
+    <string name="quiz1_4_6option2">Step 2</string>
+    <string name="quiz1_4_6option3">Step 3</string>
+    <string name="quiz2_4_6option1">Step 1</string>
+    <string name="quiz2_4_6option2">Step 2</string>
+    <string name="quiz2_4_6option3">Step 3</string>
+    <string name="quiz3_4_6option1">Brush</string>
+    <string name="quiz3_4_6option2">Cloth</string>
+    <string name="quiz3_4_6option3">Rubbing Alcohol</string>
+    <string name="quiz4_4_6option1">Mechanical Electricity</string>
+    <string name="quiz4_4_6option2">Current Electricity</string>
+    <string name="quiz4_4_6option3">Static Electricity</string>
+    <string name="quiz5_4_6option1">Blow off any loose dust or debris from the RAM using canned air.</string>
+    <string name="quiz5_4_6option2">Blow out the empty RAM bay with canned air.</string>
+    <string name="quiz5_4_6option3">Files particularly once you frequently access and save seem to be inexplicably corrupted.</string>
+    <string name="quiz6_4_6option1">Blue Screen</string>
+    <string name="quiz6_4_6option2">White Screen</string>
+    <string name="quiz6_4_6option3">Gray Screen</string>
+    <string name="quiz7_4_6option1">Try a different power cable and wall socket to make sure neither is dead.</string>
+    <string name="quiz7_4_6option2">Place the spare next to your PC and connect the motherboard, external GPU.</string>
+    <string name="quiz7_4_6option3">Plug the spare PSU into the wall and test.</string>
+    <string name="quiz8_4_6option1">Blow out the empty RAM bay with canned air.</string>
+    <string name="quiz8_4_6option2">Files particularly once you frequently access and save seem to be inexplicably corrupted.</string>
+    <string name="quiz8_4_6option3">Extra noise coming from the PC case.</string>
+    <string name="quiz9_4_6option1">Graphics Card</string>
+    <string name="quiz9_4_6option2">Interface Card</string>
+    <string name="quiz9_4_6option3">Sound Card</string>
+    <string name="quiz10_4_6option1">Continue what you doing.</string>
+    <string name="quiz10_4_6option2">Cool it down. </string>
+    <string name="quiz10_4_6option3">Turn off your monitor.</string>
+
+
+    <!-- TODO: MODULE 1 LESSON 5-->
+    <!--QUESTION-->
+    <string name="quiz1_5_1">1.	Being a student, having Personal Computer is so essential in today’s world.</string>
+    <string name="quiz2_5_1">2.	In the choices below some are essentially needed in Basic PC Set-Up except one.</string>
+    <!--ANSWER-->
+    <string name="quiz1_5_1option1">True</string>
+    <string name="quiz1_5_1option2">False</string>
+    <string name="quiz2_5_1option1">Monitor</string>
+    <string name="quiz2_5_1option2">Webcam</string>
+    <string name="quiz2_5_1option3">System Unit</string>
+
+
+    <!-- TODO: MODULE 2 LESSON 5-->
+    <!--QUESTION-->
+    <string name="quiz1_5_2">1.	_______ is the process of developing a mathematical representation of any surface of an object in three dimensions via specialized software?</string>
+    <string name="quiz2_5_2">2.	______ is one of the best entertainment that PC Users can appreciate more than anyone else?</string>
+    <string name="quiz3_5_2">3.	________ is the process of manipulating video by rearranging different shots and scenes in order to create a whole new output via specialized software?</string>
+    <!--ANSWER-->
+    <string name="quiz1_5_2option1">Audio Production</string>
+    <string name="quiz1_5_2option2">Video Editing Production</string>
+    <string name="quiz1_5_2option3">3D Modeling </string>
+    <string name="quiz2_5_2option1">Audio Production</string>
+    <string name="quiz2_5_2option2">Video Editing Production</string>
+    <string name="quiz2_5_2option3">Gaming PC</string>
+    <string name="quiz3_5_2option1">Audio Production</string>
+    <string name="quiz3_5_2option2">Video Editing</string>
+    <string name="quiz3_5_2option3">Gaming PC</string>
+
+
+    <!-- TODO: MODULE 1 LESSON 6-->
+    <!--QUESTION-->
+    <string name="quiz1_6_1">1.	Hardware tools are grouped into four categories. In the choice below which answer shows the right grouped?</string>
+    <string name="quiz2_6_1">2.	This kind of EDS Tools protects computer equipment when grounded?</string>
+    <string name="quiz3_6_1">3.	This kind of hand tools used to tighten or loosen screws that have a star-like depression on the top, a feature that is mainly found on laptops?</string>
+    <!--ANSWER-->
+    <string name="quiz1_6_1option1">EDS tools, Hand tools and Cleaning Tools</string>
+    <string name="quiz1_6_1option2">Drill tools, Spanner Tools and Clamp Tools</string>
+    <string name="quiz1_6_1option3">Wrenches tools, Pliers Tools and Hammer Tools</string>
+    <string name="quiz2_6_1option1">Antistatic Map</string>
+    <string name="quiz2_6_1option2">Antistatic wrist trap</string>
+    <string name="quiz2_6_1option3">Crimper</string>
+    <string name="quiz3_6_1option1">Needle-nose pliers</string>
+    <string name="quiz3_6_1option2">Torx screwdriver</string>
+    <string name="quiz3_6_1option3">Part retriever</string>
+
+
+    <!-- TODO: MODULE 2 LESSON 6-->
+    <!--QUESTION-->
+    <string name="quiz1_6_2">1.	The purpose of self-grounding or wearing an antistatic wrist strap is to equalize the electrical charge between you and the equipment.</string>
+    <string name="quiz2_6_2">2.	The antistatic wrist strap is a conductor that cannot connects in your body to the equipment or ground channels the electricity through the wire that connects the strap.</string>
+    <string name="quiz3_6_2">3.	How many parts that a wrist trap have?</string>
+    <!--ANSWER-->
+    <string name="quiz1_6_2option1">True</string>
+    <string name="quiz1_6_2option2">False</string>
+    <string name="quiz2_6_2option1">True</string>
+    <string name="quiz2_6_2option2">False</string>
+    <string name="quiz3_6_2option1">3</string>
+    <string name="quiz3_6_2option2">2</string>
+    <string name="quiz3_6_2option3">1</string>
+
+
+    <!-- TODO: MODULE 3 LESSON 6-->
+    <!--QUESTION-->
+    <string name="quiz1_6_3">1.	This kind of tools is used to remove the insulation from wire so that it can be twisted to other wires or crimped to connectors to make a cable?</string>
+    <string name="quiz2_6_3">2.	This kind of tools used to tighten or loosen slotted screws?</string>
+    <string name="quiz3_6_3">3.	This kind of tools used to hold small parts?</string>
+    <string name="quiz4_6_3">4.	This kind of hand tools used to tighten or loosen nuts in the same way that a screwdriver tightens or loosen screws (sometimes called a nut driver).</string>
+    <string name="quiz5_6_3">5.	This kind of tool used to terminate were into termination blocks. Some cable connectors must be connected to cables using a punch down tool.</string>
+    <string name="quiz6_6_3">6.	This kind of cleaning tool used to blow away dust and debris from different computer parts without touching the components?</string>
+    <string name="quiz7_6_3">7.	This kind of cleaning tool used to screws, jumpers, fasteners, and other small parts and prevents them from getting mixed together?</string>
+    <string name="quiz8_6_3">8.	How many parts that a wrist trap have?</string>
+    <string name="quiz9_6_3">9. Turn the screwdriver _______ to tighten the screw.</string>
+    <string name="quiz10_6_3">10. Turn the screwdriver _______ to loosen the screw.</string>
+    <!--ANSWER-->
+    <string name="quiz1_6_3option1">Wire stripper</string>
+    <string name="quiz1_6_3option2">Flat-head screwdriver</string>
+    <string name="quiz1_6_3option3">Tweezers</string>
+    <string name="quiz2_6_3option1">Phillips-head screwdriver</string>
+    <string name="quiz2_6_3option2">Hex driver</string>
+    <string name="quiz2_6_3option3">Flat-head screwdriver</string>
+    <string name="quiz3_6_3option1">Hex driver</string>
+    <string name="quiz3_6_3option2">Flat-head screwdriver</string>
+    <string name="quiz3_6_3option3">Needle-nose pliers</string>
+    <string name="quiz4_6_3option1">Phillips-head screwdriver</string>
+    <string name="quiz4_6_3option2">Hex driver</string>
+    <string name="quiz4_6_3option3">Flat-head screwdriver</string>
+    <string name="quiz5_6_3option1">Punch-down tool</string>
+    <string name="quiz5_6_3option2">Wire Tripper</string>
+    <string name="quiz5_6_3option3">Needle-nose pliers</string>
+    <string name="quiz6_6_3option1">Compressed air</string>
+    <string name="quiz6_6_3option2">Parts organizer</string>
+    <string name="quiz6_6_3option3">Cable ties</string>
+    <string name="quiz7_6_3option1">Compressed air</string>
+    <string name="quiz7_6_3option2">Parts organizer</string>
+    <string name="quiz7_6_3option3">Cable ties</string>
+    <string name="quiz8_6_3option1">3</string>
+    <string name="quiz8_6_3option2">2</string>
+    <string name="quiz8_6_3option3">1</string>
+    <string name="quiz9_6_3option1">Counter-Clockwise</string>
+    <string name="quiz9_6_3option2">Clockwise</string>
+    <string name="quiz10_6_3option1">Counter-Clockwise</string>
+    <string name="quiz10_6_3option2">Clockwise</string>
+
+
+    <string name="privacy_policy">I have read and agree to the <u>Privacy Policy</u>.</string>
+</resources>

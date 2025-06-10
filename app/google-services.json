@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353336280113",
+    "project_id": "thesis-a30c5",
+    "storage_bucket": "thesis-a30c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353336280113:android:d055bc3d459889fd490110",
+        "android_client_info": {
+          "package_name": "com.example.thesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353336280113-rvo71tegvdmj8s0ek5s8u1o0io627fkj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx2d7ue5jaTwq5c-ih3i1vrCVwBtrYL1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353336280113-rvo71tegvdmj8s0ek5s8u1o0io627fkj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

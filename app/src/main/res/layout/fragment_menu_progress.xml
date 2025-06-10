@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:forceDarkAllowed="false"
+    android:orientation="vertical"
+    tools:context=".Fragment_Menu_Progress">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <!--Round Progress-->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:gravity="center_horizontal"
+                        android:text="Overall Progress:"
+                        android:textColor="@color/black_primary"
+                        android:textSize="14dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/frameLayout4"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ProgressBar
+                            android:id="@+id/progress_progressbar"
+                            style="@style/CircularDeterminateProgressBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:progress="60" />
+
+                        <TextView
+                            android:id="@+id/progress_progress_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="25dp"
+                            android:autoSizeMaxTextSize="50dp"
+                            android:autoSizeTextType="uniform"
+                            android:gravity="center"
+                            android:text="100%"
+                            android:textColor="@color/black_primary" />
+
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/progress_logo"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right"
+                        android:foreground="?android:attr/actionBarItemBackground"
+                        android:src="@drawable/logo"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/frameLayout4"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <!--Lesson Progress-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp">
+
+                    <!--Lesson 1-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center_horizontal"
+                            android:text="Lesson 1"
+                            android:textColor="@color/black_primary" />
+
+                        <LinearLayout
+                            android:id="@+id/progress_box_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/progress_lesson_1_locked"
+                            android:foreground="?android:attr/actionBarItemBackground"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/progress_text_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="100%"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!--Lesson 2-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center_horizontal"
+                            android:text="Lesson 2"
+                            android:textColor="@color/black_primary" />
+
+                        <LinearLayout
+                            android:id="@+id/progress_box_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/progress_lesson_locked"
+                            android:foreground="?android:attr/actionBarItemBackground"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/progress_text_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="100%"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!--Lesson 3-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center_horizontal"
+                            android:text="Lesson 3"
+                            android:textColor="@color/black_primary" />
+
+                        <LinearLayout
+                            android:id="@+id/progress_box_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/progress_lesson_locked"
+                            android:foreground="?android:attr/actionBarItemBackground"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/progress_text_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="100%"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!--Lesson 4-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:foreground="?android:attr/actionBarItemBackground"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center_horizontal"
+                            android:text="Lesson 4"
+                            android:textColor="@color/black_primary" />
+
+                        <LinearLayout
+                            android:id="@+id/progress_box_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/progress_lesson_locked"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/progress_text_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="100%"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!--Lesson 5-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:foreground="?android:attr/actionBarItemBackground"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center_horizontal"
+                            android:text="Lesson 5"
+                            android:textColor="@color/black_primary" />
+
+                        <LinearLayout
+                            android:id="@+id/progress_box_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/progress_lesson_locked"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/progress_text_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="100%"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!--Lesson 6-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:foreground="?android:attr/actionBarItemBackground"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center_horizontal"
+                            android:text="Lesson 6"
+                            android:textColor="@color/black_primary" />
+
+                        <LinearLayout
+                            android:id="@+id/progress_box_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/progress_lesson_locked"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/progress_text_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="100%"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!--Lesson 7-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:foreground="?android:attr/actionBarItemBackground"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center_horizontal"
+                            android:text="Lesson 7"
+                            android:textColor="@color/black_primary" />
+
+                        <LinearLayout
+                            android:id="@+id/progress_box_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/progress_lesson_locked"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/progress_text_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="100%"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!--Lesson 8-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:foreground="?android:attr/actionBarItemBackground"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:gravity="center_horizontal"
+                            android:text="Lesson 8"
+                            android:textColor="@color/black_primary" />
+
+                        <LinearLayout
+                            android:id="@+id/progress_box_8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/progress_lesson_8_locked"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/progress_text_8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="100%"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--Icon Progress-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:background="@color/black_primary" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <!--Lesson 1-->
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:id="@+id/progress_circle_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/progress_lock" />
+                            </LinearLayout>
+                            <!--Lesson 2-->
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:id="@+id/progress_circle_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/progress_lock" />
+                            </LinearLayout>
+                            <!--Lesson 3-->
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:id="@+id/progress_circle_3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/progress_lock" />
+                            </LinearLayout>
+                            <!--Lesson 4-->
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:id="@+id/progress_circle_4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/progress_lock" />
+                            </LinearLayout>
+                            <!--Lesson 5-->
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:id="@+id/progress_circle_5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/progress_lock" />
+                            </LinearLayout>
+                            <!--Lesson 6-->
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:id="@+id/progress_circle_6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/progress_lock" />
+                            </LinearLayout>
+                            <!--Lesson 7-->
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:id="@+id/progress_circle_7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/progress_lock" />
+                            </LinearLayout>
+                            <!--Lesson 8-->
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <ImageView
+                                    android:id="@+id/progress_circle_8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/progress_lock" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+                <!--Simulation-->
+                <LinearLayout
+                    android:id="@+id/progress_simulation_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="50dp"
+                    android:background="@drawable/progress_quiz_background"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:autoSizeTextType="uniform"
+                                    android:fontFamily="@font/open_sans_semibold"
+                                    android:gravity="center"
+                                    android:padding="10dp"
+                                    android:text="Simulation"
+                                    android:textColor="@color/black_primary" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="vertical"
+                                android:paddingLeft="40dp">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:id="@+id/progress_simulation_fastest"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:autoSizeTextType="uniform"
+                                        android:fontFamily="@font/open_sans_regular"
+                                        android:paddingLeft="30dp"
+                                        android:text="Fastest Time: "
+                                        android:textColor="@color/black_primary" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:id="@+id/progress_simulation_slowest"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:autoSizeTextType="uniform"
+                                        android:fontFamily="@font/open_sans_regular"
+                                        android:paddingLeft="30dp"
+                                        android:text="Slowest Time: "
+                                        android:textColor="@color/black_primary" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:id="@+id/progress_simulation_average"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:autoSizeTextType="uniform"
+                                        android:fontFamily="@font/open_sans_regular"
+                                        android:paddingLeft="30dp"
+                                        android:text="Average Time: "
+                                        android:textColor="@color/black_primary" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
